@@ -1603,7 +1603,7 @@ textarea.form-control, textarea.form-control:focus {
 /*figure:hover*/
 .portfolio-grid figure:hover{
   background-color: rgba(4,14,22,.83);
-  z-index: 101;
+  z-index: 10;
   transition: all 0.5s;
 }
 
@@ -1616,13 +1616,13 @@ textarea.form-control, textarea.form-control:focus {
   transition: all .7s;
 }
 
-.portfolio-grid figure a {
+.portfolio-grid figure .portfolio-item-img a {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 11;
 }
 
 .portfolio-item-img {
@@ -1741,6 +1741,10 @@ textarea.form-control, textarea.form-control:focus {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+
+/**/
+
 
 /* --- End of Portfolio --- */
 

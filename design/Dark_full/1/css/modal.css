@@ -1,0 +1,33 @@
+.portfolio_hidden_content{
+    background: rgba(0,0,0,.5);
+    /* display: none; */
+    /* this is how we cover the entire page */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.portfolio_hidden_content.show-modal {
+    display: block;
+  }
+
+
+
+
+.portfolio_modal{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 40%;
+    height: 70%;
+
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+}
