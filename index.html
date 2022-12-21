@@ -1256,7 +1256,21 @@
       }).mouseleave(function(){
         $('.portfolio-grid figure').perfectScrollbar('destroy');
       });
+    </script>
 
+    <!-- modal js-->
+    <script type="text/javascript">
+      modal = $('.portfolio-grid .portfolio_hidden_content')
+      $('.portfolio-grid .portfolio-item-img a').click(function(){
+        modal.addClass('show-modal');
+      })
+
+      //Hide modal
+      $(document).mouseup(function (e){
+        if(modal.has(e.target).length === 0){
+          modal.removeClass('show-modal');
+        }
+      })
     </script>
         
   </body>

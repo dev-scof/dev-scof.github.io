@@ -503,6 +503,7 @@ input[type="submit"]:focus {
   line-height: 14px;
   font-size: 12px;
   text-align: center;
+  width: 120px;
 }
 
 /* ------------------------------------------------------------
@@ -2866,9 +2867,7 @@ blockquote {
     max-width: calc(100% - 40px);
   }
 
-  .header .copyrights {
-    width: 120px;
-  }
+  
 
   .portfolio-grid figure {
     width: 25%;
