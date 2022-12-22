@@ -1,20 +1,12 @@
 .portfolio_hidden_content{
-    background: rgba(0,0,0,.5);
     /* display: none; */
     /* this is how we cover the entire page */
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: none;
+   
 }
+
 .portfolio_hidden_content.show-modal {
     display: block;
-  }
-
-
-
+}
 
 .portfolio_modal{
     background: white;
@@ -30,6 +22,83 @@
     height: 70%;
     animation-name: modalopen;
     animation-duration: var(--modal-duration);
-
     min-width: 500px;
+    z-index: 1060;
+}
+
+.portfolio_modal .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1060;
+}
+
+.portfolio_modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1061;
+    width: 1px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1062;
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width : 1024px) {
+    .portfolio_modal .close-modal {
+        right: 10px;
+    }
+}
+
+
+@media only screen and (max-width : 500px) {
+    /* 사용자 코드 */
+    .portfolio_modal{
+        width: 100%;
+        min-width: 0;
+
+    }
+    .portfolio_modal .single-page-content{
+        padding: 15%;
+    }
+    .portfolio_hidden_content{
+        background: rgba(0,0,0)
+    }
+
+}
+
+
+/* 모바일 */
+@media only screen and (max-width : 300px) {
+    
+
+    .portfolio_modal .close-modal {
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    .portfolio-modal .close-modal .lr{
+        height: 30px;
+    }
+    .portfolio-modal .close-modal .lr .rl {
+        height: 30px;
+    }
 }
