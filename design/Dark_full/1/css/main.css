@@ -626,11 +626,13 @@ input[type="submit"]:focus {
 /* --- End Custom ScrollBar Customization --- */
 
 .page-title {
-  display: inline-block;
+  display: block;
   position: relative;
-  padding-right: 25px;
-  padding-bottom: 15px;
-  margin-bottom: 30px;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .page-title h2 {

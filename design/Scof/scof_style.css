@@ -1,0 +1,221 @@
+/*=====================about=========================*/
+/*===================================================*/
+#insta_about{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 800px;
+    
+  }
+#insta_title{
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 10px;
+}
+#insta_title h1{
+  display: none;
+}
+#insta_photo{
+  display: none;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+#insta_my{
+  margin:auto;
+  width: 320px;
+  height: 320px;
+}
+#insta_my img{
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 10%;
+}
+.insta_info{
+  width: 100%;
+  height: 100%;
+}
+/*about_info*/
+#about_info{
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 30px;
+  height: 100%;
+}
+#about_info p{
+  max-height: 264px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nickname{
+  display: inline-block; 
+  height:100%;
+  padding-right: 15px;
+}
+.following{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  background: rgb(0, 154, 254);
+  border-radius: 10px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.font3{
+    margin-top: 10px;
+}
+span.font3{
+    margin-right: 5px;
+}
+.SNS_items{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+.SNS_items hr{
+    display: none;
+}
+.SNS_items li{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.SNS_items li i{
+  cursor: pointer;
+}
+.SNS_items li span{
+  display: none;
+}
+.middle_bar{
+  display: none;
+}
+#vision_info{
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about responsive*/
+@media(max-width: 768px)
+{
+  .page-title{
+    display: none;
+  }
+  #insta_about{
+    padding:0;
+    height: 100%;
+    border: 3px solid gray;
+  }
+  #insta_title{
+    display: block;
+  }
+  #insta_title img{
+
+  }
+  #insta_title h1{
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+    height: 100%;
+    float: left;
+  }
+  #insta_photo{
+    display: block;
+    margin: 0 auto 30px;
+  }
+  #insta_photo img{
+    margin: 0 auto;
+  }
+  .middle_bar{
+    display: block;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+  }
+  #insta_my{
+    float: left;
+    display: inline-block;
+    margin: 5px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+  }
+  #insta_title .following{
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    margin: 10px;
+    height: 40px;
+    padding: 5px;
+  }
+  #insta_my img{
+
+  }
+  .middle_bar{
+    width: 100%;
+  }
+  .middle_bar i{
+    cursor: pointer;
+    color: black;
+    vertical-align: middle;
+    font-size: 40px;
+    margin: 15px;
+  }
+  .middle_bar a:hover{
+    background: transparent;
+  }
+  #about_info{
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  #about_info div{
+    display: none;
+  }
+  
+  .SNS_items{
+
+    text-align: center;
+    display: none;
+  }
+  .SNS_items hr{
+    display: block;
+  }
+  .SNS_items li{
+    display: inline-block;
+    font-size: 40px;
+    margin : 30px;
+  }
+}
