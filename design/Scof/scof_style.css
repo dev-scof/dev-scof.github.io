@@ -119,14 +119,39 @@ span.font3{
     padding-right: 30px;
     height: 100%;
 }
+/* resume modal */
+#resume_modal_page figure .single-page-content .left{
+  position: fixed;
+  width: 35%;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-right: 1px dashed rgba(255, 255, 255, 0.1);
+  z-index: 1070;
+}
 
+#resume_modal_page figure .single-page-content .left .left_inner{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: relative;
+  padding: 50px 40px;
+}
+.profile .profile_img img{
+  border-radius: 50%;
+}
 
-
-
-
-
-
-
+#resume_modal_page figure .single-page-content .right{
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 65%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
 
 
 
@@ -170,6 +195,8 @@ span.font3{
     border-top: 3px solid gray;
     border-bottom: 3px solid gray;
   }
+  .following{
+  }
   #insta_my{
     float: left;
     display: inline-block;
@@ -209,8 +236,16 @@ span.font3{
     padding-top: 10px;
     padding-left: 15px;
   }
-  #about_info div{
+  .insta_info .nickname{
     display: none;
+  }
+  .name_position{
+    display: none;
+  }
+  .following{
+    position: fixed;
+    top: 135px;
+    left: 220px;
   }
   
   #vision_info{
@@ -219,7 +254,6 @@ span.font3{
   }
 
   .SNS_items{
-
     text-align: center;
     display: none;
   }

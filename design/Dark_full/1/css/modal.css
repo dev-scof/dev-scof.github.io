@@ -1,10 +1,10 @@
-.portfolio_hidden_content{
+.hidden_content{
     /* display: none; */
     /* this is how we cover the entire page */
    
 }
 
-.portfolio_hidden_content.show-modal {
+.hidden_content.show-modal {
     display: block;
 }
 
@@ -26,6 +26,38 @@
     z-index: 1060;
 }
 
+.resume_modal{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    width: 800px;
+    height: 70%;
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    min-width: 500px;
+    z-index: 1060;
+}
+
+.resume_modal .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1060;
+}
+
+.resume_modal .close-modal:hover {
+    opacity: .3;
+}
+
 .portfolio_modal .close-modal {
     position: absolute;
     top: 10px;
@@ -37,9 +69,11 @@
     z-index: 1060;
 }
 
+
 .portfolio_modal .close-modal:hover {
     opacity: .3;
 }
+
 
 .portfolio-modal .close-modal .lr {
     z-index: 1061;
@@ -79,7 +113,7 @@
     .portfolio_modal .single-page-content{
         padding: 15%;
     }
-    .portfolio_hidden_content{
+    .hidden_content{
         background: rgba(0,0,0)
     }
 
