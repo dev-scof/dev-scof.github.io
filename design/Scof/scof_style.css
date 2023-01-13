@@ -110,8 +110,13 @@ span.font3{
 }
 #vision_info{
     display: inline-block;
+    max-width: 800px;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     height: 100%;
 }
 
@@ -182,7 +187,10 @@ span.font3{
     padding: 5px;
   }
   #insta_my img{
-
+    border-radius: 50%;
+  }
+  #insta_photo img{
+    border-radius: 10%;
   }
   .middle_bar{
     width: 100%;
@@ -205,6 +213,11 @@ span.font3{
     display: none;
   }
   
+  #vision_info{
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
   .SNS_items{
 
     text-align: center;
