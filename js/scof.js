@@ -1,8 +1,5 @@
 /* follow button */
 var insta_follow_var = 1;
-var insta_follow_text = new Array("UNFOLLOW", "FOLLOW")
-var insta_follow_background_color = new Array('gray', 'rgb(0, 154, 254)')
-
 $(document).ready(function(){
   
     /*When window scroll*/
@@ -22,9 +19,6 @@ $(document).ready(function(){
     });
   
 
-    $('.following').text(insta_follow_text[insta_follow_var%2])
-    $('.following').css("background", insta_follow_background_color[insta_follow_var%2])
-
     /*When window resize*/
     $(window).resize(function(){
   
@@ -43,11 +37,6 @@ $(document).ready(function(){
   });
 
 
-$('.following').click(function(){
-    $(this).text(insta_follow_text[insta_follow_var%2])
-    $(this).css("background", insta_follow_background_color[insta_follow_var%2])
-    insta_follow_var++;
-});
 
 
   /*SNS Toggle*/
