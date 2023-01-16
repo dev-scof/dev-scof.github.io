@@ -160,6 +160,9 @@ span.font3{
 .coloring{
   color:orange;
 }
+.backcoloring{
+  background-color: orange;
+}
 .profile{
   width: 100%;
   text-align: center;
@@ -238,6 +241,42 @@ span.font3{
   bottom: 0px;
 }
 
+.portfolio_container{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  max-width: 800px;
+}
+
+.portfolio_container .row{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+@media(max-width: 990px)
+{
+  .contact-container{
+    width: 100%;
+  }
+  .contact-container div{
+    width: 100%;
+    align-items: center;
+  }
+  .contact_row:first-child .form-group{
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .contact_row:first-child .form-group:last-child{
+    margin: 0;
+    margin-bottom: 25px;
+  }
+}
+
+
 
 @media(max-width: 870px)
 {
@@ -261,14 +300,15 @@ span.font3{
   .short_info{
     margin-bottom: 50px;
   }
+  
 }
+
+
 
 /*about responsive*/
 @media(max-width: 768px)
 {
-  .page-title{
-    display: none;
-  }
+
   #insta_about{
     padding:0;
     height: 100%;
@@ -346,7 +386,7 @@ span.font3{
   }
   .following{
     position: fixed;
-    top: 135px;
+    top: 270px;
     left: 220px;
   }
   

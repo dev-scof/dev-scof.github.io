@@ -37,9 +37,10 @@ $(document).ready(function(){
   });
 
 
+$('.tile .text').perfectScrollbar();
 
 
-  /*SNS Toggle*/
+/*SNS Toggle*/
 $('.fa-facebook-square').click(function(){
   $('.fa-facebook-square a span').animate({width:'toggle'});
 });
