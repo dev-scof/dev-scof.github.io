@@ -5,20 +5,20 @@
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
 
-01)	EDREA BASE
-02)	EDREA MOBILE MENU
-03) EDREA HEADER
-04) EDREA CONTENT
-05) EDREA HOME
-06) EDREA ABOUT
-07) EDREA PORTFOLIO
-08) EDREA NEWS
-09) EDREA CONTACT
-10) EDREA MAGIC CURSOR
-11) EDREA MEDIA QUERIES (FOR SMALL DEVIVES)
+01)	scof BASE
+02)	scof MOBILE MENU
+03) scof HEADER
+04) scof CONTENT
+05) scof HOME
+06) scof ABOUT
+07) scof PORTFOLIO
+08) scof NEWS
+09) scof CONTACT
+10) scof MAGIC CURSOR
+11) scof MEDIA QUERIES (FOR SMALL DEVIVES)
 
 /*---------------------------------------------------*/
-/*	01) EDREA BASE
+/*	01) scof BASE
 /*---------------------------------------------------*/
 
 :root{
@@ -84,15 +84,15 @@ h3 { font-size: 30px; }
 h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
-.edrea_tm_all_wrap{
+.scof_tm_all_wrap{
 	width: 100%;
 	min-height: 100vh;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.edrea_tm_all_wrap,
-.edrea_tm_all_wrap *{
+.scof_tm_all_wrap,
+.scof_tm_all_wrap *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -225,10 +225,10 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	02) EDREA MOBILE MENU
+/*	02) scof MOBILE MENU
 /*---------------------------------------------------*/
 
-.edrea_tm_topbar{
+.scof_tm_topbar{
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -238,7 +238,7 @@ h6 { font-size: 16px; }
 	z-index: 10;
 	display: none;
 }
-.edrea_tm_topbar .topbar_inner{
+.scof_tm_topbar .topbar_inner{
 	width: 100%;
 	height: 100%;
 	clear: both;
@@ -247,33 +247,33 @@ h6 { font-size: 16px; }
 	justify-content: space-between;
 	padding: 0px 20px;
 }
-.edrea_tm_topbar .logo img{
+.scof_tm_topbar .logo img{
 	max-width: 100px;
 	max-height: 40px;
 }
-.edrea_tm_topbar .hamburger{
+.scof_tm_topbar .hamburger{
 	padding: 0px;
 }
-.edrea_tm_topbar .hamburger-inner, 
-.edrea_tm_topbar .hamburger-inner:after, 
-.edrea_tm_topbar .hamburger-inner:before{
+.scof_tm_topbar .hamburger-inner, 
+.scof_tm_topbar .hamburger-inner:after, 
+.scof_tm_topbar .hamburger-inner:before{
 	width: 30px;
 	height: 2px;
 	background-color: #fff;
 }
-.edrea_tm_topbar .hamburger.is-active .hamburger-inner, 
-.edrea_tm_topbar .hamburger.is-active .hamburger-inner:after, 
-.edrea_tm_topbar .hamburger.is-active .hamburger-inner:before{
+.scof_tm_topbar .hamburger.is-active .hamburger-inner, 
+.scof_tm_topbar .hamburger.is-active .hamburger-inner:after, 
+.scof_tm_topbar .hamburger.is-active .hamburger-inner:before{
 	background-color: #fff;
 }
-.edrea_tm_topbar .trigger{
+.scof_tm_topbar .trigger{
 	position: relative;
 	top: 5px;
 }
-.edrea_tm_topbar .hamburger-box{
+.scof_tm_topbar .hamburger-box{
 	width: 30px;
 }
-.edrea_tm_mobile_menu{
+.scof_tm_mobile_menu{
 	position: fixed;
 	top: 50px;
 	right: -200px;
@@ -288,49 +288,49 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_mobile_menu.opened{
+.scof_tm_mobile_menu.opened{
 	right: 0px;
 }
-.edrea_tm_mobile_menu .inner{
+.scof_tm_mobile_menu .inner{
 	position: relative;
 	width: 100%;
 	height: 100%;
 	text-align: right;
 	padding: 50px 20px 20px 20px;
 }
-.edrea_tm_mobile_menu .menu_list{
+.scof_tm_mobile_menu .menu_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.edrea_tm_mobile_menu .menu_list ul{
+.scof_tm_mobile_menu .menu_list ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.edrea_tm_mobile_menu .menu_list ul li{
+.scof_tm_mobile_menu .menu_list ul li{
 	margin: 0px 0px 7px 0px;
 }
-.edrea_tm_mobile_menu .menu_list ul li a{
+.scof_tm_mobile_menu .menu_list ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-family: "Poppins";
 }
-.edrea_tm_mobile_menu .menu_list ul li.active a{
+.scof_tm_mobile_menu .menu_list ul li.active a{
 	color: var(--main-color);
 }
 
 /*---------------------------------------------------*/
-/*	03) EDREA HEADER
+/*	03) scof HEADER
 /*---------------------------------------------------*/
 
-.edrea_tm_header{
+.scof_tm_header{
 	position: fixed;
 	width: 900px;
 	transform: translateX(-50%);
 	left: 50%;
 }
-.edrea_tm_header .header_inner{
+.scof_tm_header .header_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -340,21 +340,21 @@ h6 { font-size: 16px; }
 	align-items: center;
 	justify-content: space-between;
 }
-.edrea_tm_header .logo img{
+.scof_tm_header .logo img{
 	max-width: 100px;
 }
-.edrea_tm_header .menu ul{
+.scof_tm_header .menu ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.edrea_tm_header .menu ul li{
+.scof_tm_header .menu ul li{
 	margin: 0px 30px 0px 0px;
 	display: inline-block;
 }
-.edrea_tm_header .menu ul li:last-child{
+.scof_tm_header .menu ul li:last-child{
 	margin-right: 0px;
 }
-.edrea_tm_header .menu ul li a{
+.scof_tm_header .menu ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-family: "Poppins";
@@ -366,26 +366,26 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_header .menu ul li.active a{
+.scof_tm_header .menu ul li.active a{
 	color: var(--main-color);
 }
-.edrea_tm_header .menu ul li a:hover{
+.scof_tm_header .menu ul li a:hover{
 	color: var(--main-color);
 }
 
 /*---------------------------------------------------*/
-/*	04) EDREA CONTENT
+/*	04) scof CONTENT
 /*---------------------------------------------------*/
 
-.edrea_tm_content{
+.scof_tm_content{
 	position: fixed;
-	width: 900px;
+	width: 1000px;
 	top: 100px;
 	bottom: 100px;
 	left: 50%;
 	transform: translateX(-50%);
 }
-.edrea_tm_section{
+.scof_tm_section{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -402,25 +402,25 @@ h6 { font-size: 16px; }
 	-webkit-transition: visibility .5s linear, opacity 0s linear;
 	-o-transition: visibility .5s linear, opacity 0s linear;
 }
-.edrea_tm_section.animated {
+.scof_tm_section.animated {
 	opacity: 1;
 	visibility: visible;
 	z-index: 9;
 }
-.edrea_tm_section.active {
+.scof_tm_section.active {
 	opacity: 1;
 	visibility: visible;
 	z-index: 10;
 }
-.edrea_tm_section.hidden {
+.scof_tm_section.hidden {
 	opacity: 0;
 	visibility: hidden;
 	z-index: 9;
 }
-.edrea_tm_section::-webkit-scrollbar{
+.scof_tm_section::-webkit-scrollbar{
   width: 0px;
 }
-.edrea_tm_section .section_inner{
+.scof_tm_section .section_inner{
 	position: relative;
 	width: 100%;
 	min-height: 100%;
@@ -429,34 +429,34 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	05) EDREA HOME
+/*	05) scof HOME
 /*---------------------------------------------------*/
 
-.edrea_tm_home{
+.scof_tm_home{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	text-align: center;
 }
-.edrea_tm_home .name{
+.scof_tm_home .name{
 	color: #fff;
 	font-size: 72px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-.edrea_tm_home .job{
+.scof_tm_home .job{
 	font-size: 25px;
 	font-weight: 500;
 	color: #A2A2A2;
 	margin-bottom: 40px;
 }
-.edrea_tm_home .job b{
+.scof_tm_home .job b{
 	color: #fff;
 	font-weight: 600;
 }
-.edrea_tm_button{
+.scof_tm_button{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -464,7 +464,7 @@ h6 { font-size: 16px; }
 	position: relative;
 	z-index: 5;
 }
-.edrea_tm_button a{
+.scof_tm_button a{
 	text-decoration: none;
 	color: #fff;
 	display: inline-block;
@@ -480,35 +480,35 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_button a:hover{
+.scof_tm_button a:hover{
 	background-color: #fff;
 	color: #000;
 }
-.edrea_tm_button.full a{display: block;}
+.scof_tm_button.full a{display: block;}
 
 /*---------------------------------------------------*/
-/*	06) EDREA ABOUT
+/*	06) scof ABOUT
 /*---------------------------------------------------*/
 
-.edrea_tm_about{
+.scof_tm_about{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	display: flex;
 }
-.edrea_tm_about .left{
+.scof_tm_about .left{
 	width: 40%;
 }
-.edrea_tm_about .left .image{
+.scof_tm_about .left .image{
 	position: relative;
 }
-.edrea_tm_about .left .image img{
+.scof_tm_about .left .image img{
 	position: relative;
 	min-width: 100%;
 	opacity: 0;
 }
-.edrea_tm_about .left .image .main{
+.scof_tm_about .left .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -519,48 +519,51 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 10px;
 }
-.edrea_tm_about .right{
+.scof_tm_about .right{
 	width: 60%;
 	padding-left: 100px;
 }
-.edrea_tm_about .right .short{
+.scof_tm_about .right .short{
 	width: 100%;
 	float: left;
 	margin-bottom: 24px;
 	border-bottom: 1px dashed rgba(255,255,255,.15);
 	padding-bottom: 30px;
 }
-.edrea_tm_about .right .short .name{
+.scof_tm_about .right .short .name{
 	text-transform: uppercase;
 	margin-bottom: 15px;
 	font-size: 40px;
 	font-weight: 700;
 }
-.edrea_tm_about .right .short .job{
+.scof_tm_about .right .short .job{
 	font-size: 18px;
 	font-weight: 400;
 	color: #A2A2A2;
 }
-.edrea_tm_about .right .short .job b{
+.scof_tm_about .right .short .job b{
 	color: #fff;
 	font-weight: 400;
 }
-.edrea_tm_about .right .text{
+.scof_tm_about .right .text{
 	width: 100%;
 	float: left;
 	margin-bottom: 36px;
 }
-.edrea_tm_about .right .text p{
+.scof_tm_about .right .text p{
 	margin-bottom: 15px;
 }
-.edrea_tm_about .right .text p:last-child{
+.scof_tm_about .right .text p:last-child{
 	margin-bottom: 0px;
 }
-.edrea_tm_about .right .text span{
+.scof_tm_about .right .text span{
 	color: #fff;
 }
 .coloring{color: var(--main-color);}
-.edrea_tm_modalbox{
+.coloring-back{
+	background-color: var(--main-color);
+}
+.scof_tm_modalbox{
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -577,15 +580,15 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_modalbox.opened{
+.scof_tm_modalbox.opened{
 	opacity: 1;
 	visibility: visible;
 }
-.edrea_tm_modalbox .box_inner{
+.scof_tm_modalbox .box_inner{
 	position: absolute;
 	top: 70px;
 	bottom: 70px;
-	width: 800px;
+	width: 1000px;
 	left: 50%;
 	border-radius: 10px;
 	transform: translateX(-50%);
@@ -602,19 +605,19 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_modalbox.opened .box_inner{
+.scof_tm_modalbox.opened .box_inner{
 	opacity: 1;
 	visibility: visible;
 	margin-top: 0px;
 }
-.edrea_tm_modalbox .close{
+.scof_tm_modalbox .close{
 	position: fixed;
 	left: 100%;
 	top: 0px;
 	margin-left: 30px;
 	z-index: 10;
 }
-.edrea_tm_modalbox .close a{
+.scof_tm_modalbox .close a{
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -630,16 +633,16 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_modalbox .close a:hover{
+.scof_tm_modalbox .close a:hover{
 	border-radius: 100%;
 }
-.edrea_tm_modalbox .close a i{
+.scof_tm_modalbox .close a i{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-.edrea_tm_modalbox .description_wrap{
+.scof_tm_modalbox .description_wrap{
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -648,7 +651,7 @@ h6 { font-size: 16px; }
 	overflow: hidden;
 	overflow-y: scroll;
 }
-.edrea_tm_modalbox .description_wrap:before{
+.scof_tm_modalbox .description_wrap:before{
 	position: fixed;
 	content: "";
 	top: 0px;
@@ -660,7 +663,7 @@ h6 { font-size: 16px; }
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
-.edrea_tm_modalbox .description_wrap:after{
+.scof_tm_modalbox .description_wrap:after{
 	position: fixed;
 	content: "";
 	bottom: 0px;
@@ -672,24 +675,24 @@ h6 { font-size: 16px; }
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
-.edrea_tm_modalbox .description_wrap::-webkit-scrollbar{
+.scof_tm_modalbox .description_wrap::-webkit-scrollbar{
   width: 0px;
 }
-.edrea_tm_hidden_content{
+.scof_tm_hidden_content{
 	position: absolute;
 	z-index: -111;
 	visibility: hidden;
 	opacity: 0;
 	display: none;
 }
-.edrea_tm_modalbox .about_popup_details{
+.scof_tm_modalbox .about_popup_details{
 	width: 100%;
 	height: 100%;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.edrea_tm_modalbox .about_popup_details .left{
+.scof_tm_modalbox .about_popup_details .left{
 	position: fixed;
 	width: 40%;
 	left: 0px;
@@ -698,7 +701,7 @@ h6 { font-size: 16px; }
 	border-right:1px dashed rgba(255,255,255,.1);
 	z-index: 5;
 }
-.edrea_tm_modalbox .about_popup_details .left .left_inner{
+.scof_tm_modalbox .about_popup_details .left .left_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -706,24 +709,24 @@ h6 { font-size: 16px; }
 	position: relative;
 	padding: 50px 40px;
 }
-.edrea_tm_modalbox .about_popup_details .left .author{
+.scof_tm_modalbox .about_popup_details .left .author{
 	width: 100%;
 	float: left;
 	margin-bottom: 35px;
 	text-align: center;
 	overflow: hidden;
 }
-.edrea_tm_modalbox .about_popup_details .left .avatar_image{
+.scof_tm_modalbox .about_popup_details .left .avatar_image{
 	position: relative;
 	margin: 0px auto 25px auto;
 	max-width: 50%;
 }
-.edrea_tm_modalbox .about_popup_details .left .avatar_image img{
+.scof_tm_modalbox .about_popup_details .left .avatar_image img{
 	position: relative;
 	opacity: 0;
 	min-width: 100%;
 }
-.edrea_tm_modalbox .about_popup_details .left .avatar_image .main{
+.scof_tm_modalbox .about_popup_details .left .avatar_image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -734,35 +737,35 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 100%;
 }
-.edrea_tm_modalbox .about_popup_details .left .short{
+.scof_tm_modalbox .about_popup_details .left .short{
 	width: 100%;
 	float: left;
 }
-.edrea_tm_modalbox .about_popup_details .left .short .name{
+.scof_tm_modalbox .about_popup_details .left .short .name{
 	font-size: 22px;
 	text-transform: uppercase;
 	margin-bottom: 7px;
 }
-.edrea_tm_modalbox .about_popup_details .left .short .job{
+.scof_tm_modalbox .about_popup_details .left .short .job{
 	font-weight: 400;
 	color: #A2A2A2;
 	font-size: 15px;
 	
 }
-.edrea_tm_modalbox .about_popup_details .left .short .job b{
+.scof_tm_modalbox .about_popup_details .left .short .job b{
 	color: #fff;
 	font-weight: 400;
 }
-.edrea_tm_modalbox .about_popup_details .left .list{
+.scof_tm_modalbox .about_popup_details .left .list{
 	width: 100%;
 	float: left;
 	margin-bottom: 35px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul{
+.scof_tm_modalbox .about_popup_details .left .list ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li{
+.scof_tm_modalbox .about_popup_details .left .list ul li{
 	margin: 0px;
 	width: 100%;
 	float: left;
@@ -770,18 +773,18 @@ h6 { font-size: 16px; }
 	padding-bottom: 7px;
 	margin-bottom: 7px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li:last-child{
+.scof_tm_modalbox .about_popup_details .left .list ul li:last-child{
 	border: none;
 	padding: 0px;
 	margin: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li .list_inner{
+.scof_tm_modalbox .about_popup_details .left .list ul li .list_inner{
 	margin: 0px;
 	width: 100%;
 	float: left;
 	position: relative;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li i{
+.scof_tm_modalbox .about_popup_details .left .list ul li i{
 	color: var(--main-color);
 	font-size: 16px;
 	position: absolute;
@@ -789,10 +792,10 @@ h6 { font-size: 16px; }
 	top: 50%;
 	transform: translateY(-50%);
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li span{
+.scof_tm_modalbox .about_popup_details .left .list ul li span{
 	padding-left: 37px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li a{
+.scof_tm_modalbox .about_popup_details .left .list ul li a{
 	text-decoration: none;
 	color: #fff;
 	
@@ -802,10 +805,10 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li a:hover{
+.scof_tm_modalbox .about_popup_details .left .list ul li a:hover{
 	color: var(--main-color);
 }
-.edrea_tm_modalbox .about_popup_details .right{
+.scof_tm_modalbox .about_popup_details .right{
 	width: 100%;
 	position: absolute;
 	padding-left: 40%;
@@ -813,7 +816,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	bottom: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .right .right_inner{
+.scof_tm_modalbox .about_popup_details .right .right_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -821,12 +824,12 @@ h6 { font-size: 16px; }
 	position: relative;
 	padding: 50px 40px;
 }
-.edrea_tm_modalbox .about_popup_details .biography{
+.scof_tm_modalbox .about_popup_details .biography{
 	width: 100%;
 	float: left;
 	margin-bottom: 55px;
 }
-.edrea_tm_modalbox .about_popup_details .about_title{
+.scof_tm_modalbox .about_popup_details .about_title{
 	width: 100%;
 	float: left;
 	position: relative;
@@ -834,19 +837,19 @@ h6 { font-size: 16px; }
 	border-bottom: 1px dashed rgba(255,255,255,.15);
 	padding-bottom: 15px;
 }
-.edrea_tm_modalbox .about_popup_details .about_title h3{
+.scof_tm_modalbox .about_popup_details .about_title h3{
 	font-size: 18px;
 	font-weight: 600;
 }
-.edrea_tm_modalbox .about_popup_details .biography .text{
+.scof_tm_modalbox .about_popup_details .biography .text{
 	width: 100%;
 	float: left;
 	margin-top: 29px;
 }
-.edrea_tm_modalbox .about_popup_details .biography .text span{
+.scof_tm_modalbox .about_popup_details .biography .text span{
 	color: #fff;
 }
-.edrea_tm_modalbox .about_popup_details .prog_skill{
+.scof_tm_modalbox .about_popup_details .prog_skill{
 	width: 100%;
 	float: left;
 	margin-bottom: 62px;
@@ -902,7 +905,7 @@ h6 { font-size: 16px; }
 @-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 @keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 
-.edrea_tm_modalbox .about_popup_details .lang_skill{
+.scof_tm_modalbox .about_popup_details .lang_skill{
 	width: 100%;
 	float: left;
 	margin-bottom: 34px;
@@ -956,33 +959,33 @@ h6 { font-size: 16px; }
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-.edrea_tm_modalbox .about_popup_details .service{
+.scof_tm_modalbox .about_popup_details .service{
 	width: 100%;
 	float: left;
 	margin-bottom: 55px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list{
+.scof_tm_modalbox .about_popup_details .service .list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-top: 29px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul{
+.scof_tm_modalbox .about_popup_details .service .list ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul li{
+.scof_tm_modalbox .about_popup_details .service .list ul li{
 	margin: 0px 0px 8px 0px;
 	width: 100%;
 	float: left;
 	position: relative;
 	padding-left: 25px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul li:last-child{
+.scof_tm_modalbox .about_popup_details .service .list ul li:last-child{
 	margin-bottom: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul li i{
+.scof_tm_modalbox .about_popup_details .service .list ul li i{
 	position: absolute;
 	left: -7px;
 	top: 50%;
@@ -991,26 +994,26 @@ h6 { font-size: 16px; }
 	font-size: 16px;
 	margin-top: 1px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline{
+.scof_tm_modalbox .about_popup_details .timeline{
 	width: 100%;
 	float: left;
 	margin-bottom: 55px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list{
+.scof_tm_modalbox .about_popup_details .timeline .list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-top: 45px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul{
+.scof_tm_modalbox .about_popup_details .timeline .list ul{
 	margin: 0px;
 	list-style-type: none;
 	position: relative;
 	display: inline-block;
 	padding-top: 10px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul:before{
+.scof_tm_modalbox .about_popup_details .timeline .list ul:before{
 	content: "";
     position: absolute;
     width: 1px;
@@ -1019,7 +1022,7 @@ h6 { font-size: 16px; }
     left: 0;
     background-color: rgba(255,255,255,.15);
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li{
 	margin: 0px;
 	width: 100%;
 	float: left;
@@ -1027,10 +1030,10 @@ h6 { font-size: 16px; }
 	padding-left: 20px;
 	padding-bottom: 45px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li:last-child{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li:last-child{
 	padding-bottom: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li:before{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li:before{
 	content: "";
     position: absolute;
     height: 12px;
@@ -1041,18 +1044,18 @@ h6 { font-size: 16px; }
     left: -6px;
     top: 12px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .list_inner{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	position: relative;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .time{
-	width: 50%;
+.scof_tm_modalbox .about_popup_details .timeline .list ul li .time{
+	width: 35%;
 	padding-right: 15px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .time span{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li .time span{
 	display: inline-block;
 	padding: 5px 25px;
 	background-color: rgba(255,255,255,.05);
@@ -1060,23 +1063,40 @@ h6 { font-size: 16px; }
 	font-size: 14px;
 	white-space: nowrap;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .place{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li .place{
 	width: 50%;
 	padding-left: 15px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .place h3{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li .place h3{
 	font-size: 15px;
     margin-bottom: 2px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .place span{
+.scof_tm_modalbox .about_popup_details .timeline .list ul li .place span{
 	font-size: 14px;
 }
-.edrea_tm_modalbox .about_popup_details .partners{
+.scof_tm_modalbox .about_popup_details .awards{
 	width: 100%;
 	float: left;
 	margin-bottom: 62px;
 }
-.edrea_tm_modalbox .about_popup_details .partners .list{
+.scof_tm_modalbox .about_popup_details .awards .list{
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-top: 20px;
+	clear: both;
+}
+.scof_tm_modalbox .about_popup_details .awards .list ul{
+	list-style-type: none;
+	margin: 0;
+}
+
+.scof_tm_modalbox .about_popup_details .partners{
+	width: 100%;
+	float: left;
+	margin-bottom: 62px;
+}
+.scof_tm_modalbox .about_popup_details .partners .list{
 	width: 100%;
     float: left;
     clear: both;
@@ -1084,7 +1104,7 @@ h6 { font-size: 16px; }
     border: 2px solid #333;
 	margin-top: 40px;
 }
-.edrea_tm_modalbox .about_popup_details .partners .list ul{
+.scof_tm_modalbox .about_popup_details .partners .list ul{
 	margin: -2px -10px -2px -2px;
     list-style-type: none;
     padding-top: 2px;
@@ -1092,7 +1112,7 @@ h6 { font-size: 16px; }
     padding-left: 2px;
     min-width: calc(100% + 12px);
 } 
-.edrea_tm_modalbox .about_popup_details .partners .list ul li{
+.scof_tm_modalbox .about_popup_details .partners .list ul li{
 	margin: 0px;
     float: left;
     width: 50%;
@@ -1105,11 +1125,11 @@ h6 { font-size: 16px; }
     margin-left: -2px;
     overflow: hidden;
 } 
-.edrea_tm_modalbox .about_popup_details .partners .list ul li img{
+.scof_tm_modalbox .about_popup_details .partners .list ul li img{
 	max-width: 65%;
     max-height: 65px;
 } 
-.edrea_tm_modalbox .about_popup_details .partners .list ul li .list_inner{
+.scof_tm_modalbox .about_popup_details .partners .list ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1122,36 +1142,36 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_modalbox .about_popup_details .partners .list ul li .list_inner:hover{
+.scof_tm_modalbox .about_popup_details .partners .list ul li .list_inner:hover{
 	opacity: 1;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial{
+.scof_tm_modalbox .about_popup_details .testimonial{
 	width: 100%;
 	float: left;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list{
+.scof_tm_modalbox .about_popup_details .testimonial .list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-top: 54px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list ul{
+.scof_tm_modalbox .about_popup_details .testimonial .list ul{
 	margin: 0px;
 	list-style-type: none;
 	cursor: e-resize;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list ul li{
+.scof_tm_modalbox .about_popup_details .testimonial .list ul li{
 	margin: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .list_inner{
+.scof_tm_modalbox .about_popup_details .testimonial .list ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text{
+.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1161,7 +1181,20 @@ h6 { font-size: 16px; }
 	padding: 40px;
 	margin-bottom: 30px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text:before{
+.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text .knowledges{
+	list-style: none;
+	margin-top: 10px;
+}
+
+.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text .knowledges li {
+	display: inline-block;
+	border-radius: 3px;
+	color: #fff;
+	padding: 1px 10px;
+	margin: 3px 2px;
+	font-size: 13px;
+  }
+/* .scof_tm_modalbox .about_popup_details .testimonial .list ul li .text:before{
 	position: absolute;
 	content: "";
 	height: 0px;
@@ -1172,7 +1205,7 @@ h6 { font-size: 16px; }
     border-top-color: #333;
     border-width: 18px 18px 0px 0px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text:after{
+.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text:after{
 	position: absolute;
 	content: "";
 	top: 100%;
@@ -1183,8 +1216,8 @@ h6 { font-size: 16px; }
     border-top-color: #222;
     border-width: 14px 13px 0px 0px;
     margin-left: 2px;
-}
-.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text i{
+} */
+.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text i{
 	position: absolute;
 	z-index: 1;
 	font-size: 30px;
@@ -1192,7 +1225,7 @@ h6 { font-size: 16px; }
 	left: 50px;
 	color: var(--main-color);
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details{
+.scof_tm_modalbox .about_popup_details .testimonial .details{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1201,12 +1234,12 @@ h6 { font-size: 16px; }
 	align-items: center;
 	padding-left: 20px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .image{
+.scof_tm_modalbox .about_popup_details .testimonial .details .image{
 	position: relative;
 	width: 60px;
 	height: 60px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .image .main{
+.scof_tm_modalbox .about_popup_details .testimonial .details .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1217,34 +1250,34 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 100%;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .info{
+.scof_tm_modalbox .about_popup_details .testimonial .details .info{
 	padding-left: 20px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .info h3{
+.scof_tm_modalbox .about_popup_details .testimonial .details .info h3{
 	font-size: 15px;
     margin-bottom: 2px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .info span{
+.scof_tm_modalbox .about_popup_details .testimonial .details .info span{
 	font-size: 14px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .owl-carousel .owl-stage-outer{
+.scof_tm_modalbox .about_popup_details .testimonial .owl-carousel .owl-stage-outer{
 	overflow: hidden;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .owl-carousel .owl-stage-outer{
+.scof_tm_modalbox .about_popup_details .testimonial .owl-carousel .owl-stage-outer{
 	overflow: visible;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .owl-item.active{
+.scof_tm_modalbox .about_popup_details .testimonial .owl-item.active{
 	opacity: 1;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .owl-item{
+.scof_tm_modalbox .about_popup_details .testimonial .owl-item{
 	opacity: 0;
 }
 
 /*---------------------------------------------------*/
-/*	07) EDREA PORTFOLIO
+/*	07) scof PORTFOLIO
 /*---------------------------------------------------*/
 
-.edrea_tm_main_title{
+.scof_tm_main_title{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1252,23 +1285,23 @@ h6 { font-size: 16px; }
 	border-bottom: 1px dashed rgba(255,255,255,.15);
 	padding-bottom: 20px;
 }
-.edrea_tm_main_title h3{
+.scof_tm_main_title h3{
 	font-weight: 700;
 }
-.edrea_tm_portfolio{
+.scof_tm_portfolio{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.edrea_tm_portfolio .portfolio_list{
+.scof_tm_portfolio .portfolio_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 60px;
 }
-.edrea_tm_portfolio .portfolio_list .list_inner{
+.scof_tm_portfolio .portfolio_list .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1277,16 +1310,16 @@ h6 { font-size: 16px; }
 	border-radius: 10px;
 	overflow: hidden;
 }
-.edrea_tm_portfolio .portfolio_list .image{
+.scof_tm_portfolio .portfolio_list .image{
 	position: relative;
 	overflow: hidden;
 }
-.edrea_tm_portfolio .portfolio_list .image img{
+.scof_tm_portfolio .portfolio_list .image img{
 	position: relative;
 	min-width: 100%;
 	opacity: 0;
 }
-.edrea_tm_portfolio .portfolio_list .image .main{
+.scof_tm_portfolio .portfolio_list .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1303,7 +1336,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_portfolio .portfolio_list .details{
+.scof_tm_portfolio .portfolio_list .details{
 	position: absolute;
 	z-index: 2;
 	bottom: -100px;
@@ -1319,22 +1352,22 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_portfolio .portfolio_list .details h3{
+.scof_tm_portfolio .portfolio_list .details h3{
 	color: #000;
 	font-size: 15px;
 	margin-bottom: 2px;
 }
-.edrea_tm_portfolio .portfolio_list .details span{
+.scof_tm_portfolio .portfolio_list .details span{
 	color: #777;
 	font-size: 14px;
 }
-.edrea_tm_portfolio .portfolio_list .list_inner:hover .details{
+.scof_tm_portfolio .portfolio_list .list_inner:hover .details{
 	bottom: 20px;
 }
-.edrea_tm_portfolio .portfolio_list .list_inner:hover .image .main{
+.scof_tm_portfolio .portfolio_list .list_inner:hover .image .main{
 	transform: scale(1.1)translateZ(0);
 }
-.edrea_tm_full_link{
+.scof_tm_full_link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1342,7 +1375,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	z-index: 5;
 }
-.edrea_tm_swiper_progress{
+.scof_tm_swiper_progress{
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -1350,11 +1383,11 @@ h6 { font-size: 16px; }
 	clear: both;
 	margin-top: 32px;
 }
-.edrea_tm_swiper_progress .my_pagination_in{
+.scof_tm_swiper_progress .my_pagination_in{
 	float: left;
 	position: relative;
 }
-.edrea_tm_swiper_progress span{
+.scof_tm_swiper_progress span{
 	display: block;
 	float: left;
 	font-size: 16px;
@@ -1363,12 +1396,12 @@ h6 { font-size: 16px; }
 	height: 22px;
 	line-height: 22px;
 }
-.edrea_tm_swiper_progress .pagination_progress{
+.scof_tm_swiper_progress .pagination_progress{
 	width: 100px;
 	margin: 0 20px;
 	position: relative;
 }
-.edrea_tm_swiper_progress .pagination_progress .all{
+.scof_tm_swiper_progress .pagination_progress .all{
 	height: 1px;
 	width: 100%;
 	position: absolute;
@@ -1378,7 +1411,7 @@ h6 { font-size: 16px; }
 	left: 0;
 	background-color: rgba(255,255,255,.2);
 }
-.edrea_tm_swiper_progress .pagination_progress .all span{
+.scof_tm_swiper_progress .pagination_progress .all span{
 	height: 1px;
 	width: 100%;
 	background-color: rgba(255,255,255,.5);
@@ -1395,22 +1428,22 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_swiper_progress .my_navigation{
+.scof_tm_swiper_progress .my_navigation{
 	position: relative;
 	left: 6px;
 }
-.edrea_tm_swiper_progress .my_navigation ul{
+.scof_tm_swiper_progress .my_navigation ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.edrea_tm_swiper_progress .my_navigation ul li{
+.scof_tm_swiper_progress .my_navigation ul li{
 	margin: 0px 10px 0px 0px;
 	display: inline-block;
 }
-.edrea_tm_swiper_progress .my_navigation ul li:last-child{
+.scof_tm_swiper_progress .my_navigation ul li:last-child{
 	margin-right: 0px;
 }
-.edrea_tm_swiper_progress .my_navigation ul li a{
+.scof_tm_swiper_progress .my_navigation ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
@@ -1421,26 +1454,26 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_swiper_progress .my_navigation ul li a:hover{
+.scof_tm_swiper_progress .my_navigation ul li a:hover{
 	color: var(--main-color);
 }
-.edrea_tm_modalbox .portfolio_popup_details{
+.scof_tm_modalbox .portfolio_popup_details{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 50px 50px 20px 50px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .top_image{
+.scof_tm_modalbox .portfolio_popup_details .top_image{
 	position: relative;
 	margin-bottom: 25px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .top_image img{
+.scof_tm_modalbox .portfolio_popup_details .top_image img{
 	position: relative;
 	opacity: 0;
 	min-width: 100%;
 }
-.edrea_tm_modalbox .portfolio_popup_details .top_image .main{
+.scof_tm_modalbox .portfolio_popup_details .top_image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1451,16 +1484,16 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 10px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title{
+.scof_tm_modalbox .portfolio_popup_details .portfolio_main_title{
 	width: 100%;
 	float:left; 
 	margin-bottom: 25px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title h3{
+.scof_tm_modalbox .portfolio_popup_details .portfolio_main_title h3{
 	font-size: 25px; 
 	margin-bottom: 3px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title a{
+.scof_tm_modalbox .portfolio_popup_details .portfolio_main_title a{
 	color: #A2A2A2;
 	text-decoration: none;
 	
@@ -1470,54 +1503,54 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title a:hover{
+.scof_tm_modalbox .portfolio_popup_details .portfolio_main_title a:hover{
 	color: #fff;
 }
-.edrea_tm_modalbox .portfolio_popup_details .text{
+.scof_tm_modalbox .portfolio_popup_details .text{
 	width: 100%;
 	float: left;
 	margin-bottom: 42px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .text p{
+.scof_tm_modalbox .portfolio_popup_details .text p{
 	margin-bottom: 10px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .text p:last-child{
+.scof_tm_modalbox .portfolio_popup_details .text p:last-child{
 	margin-bottom: 0px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images{
+.scof_tm_modalbox .portfolio_popup_details .additional_images{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul{
+.scof_tm_modalbox .portfolio_popup_details .additional_images ul{
 	margin: 0px 0px 0px -30px;
 	list-style-type: none;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li{
+.scof_tm_modalbox .portfolio_popup_details .additional_images ul li{
 	margin: 0px 0px 30px 0px;
 	float: left;
 	width: 50%;
 	padding-left: 30px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li:nth-child(3n-2){
+.scof_tm_modalbox .portfolio_popup_details .additional_images ul li:nth-child(3n-2){
 	width: 100%;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li .list_inner{
+.scof_tm_modalbox .portfolio_popup_details .additional_images ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li .image{
+.scof_tm_modalbox .portfolio_popup_details .additional_images ul li .image{
 	position: relative;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li .image img{
+.scof_tm_modalbox .portfolio_popup_details .additional_images ul li .image img{
 	opacity: 0;
 	min-width: 100%;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li .image .main{
+.scof_tm_modalbox .portfolio_popup_details .additional_images ul li .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1530,23 +1563,23 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	08) EDREA NEWS
+/*	08) scof NEWS
 /*---------------------------------------------------*/
 
-.edrea_tm_news{
+.scof_tm_news{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.edrea_tm_news .news_list{
+.scof_tm_news .news_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 60px;
 }
-.edrea_tm_news .news_list .list_inner{
+.scof_tm_news .news_list .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1555,16 +1588,16 @@ h6 { font-size: 16px; }
 	border-radius: 10px;
 	overflow: hidden;
 }
-.edrea_tm_news .news_list .image{
+.scof_tm_news .news_list .image{
 	position: relative;
 	overflow: hidden;
 }
-.edrea_tm_news .news_list .image img{
+.scof_tm_news .news_list .image img{
 	position: relative;
 	opacity: 0;
 	min-width: 100%;
 }
-.edrea_tm_news .news_list .image .main{
+.scof_tm_news .news_list .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1581,20 +1614,20 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_news .news_list .image:hover .main{
+.scof_tm_news .news_list .image:hover .main{
 	transform: scale(1.1)translateZ(0);
 }
-.edrea_tm_news .news_list .details{
+.scof_tm_news .news_list .details{
 	width: 100%;
 	float: left;
 	background-color: #222;
 	padding: 30px 20px 27px 20px;
 }
-.edrea_tm_news .news_list h3{
+.scof_tm_news .news_list h3{
 	font-size: 15px;
 	margin-bottom: 4px;
 }
-.edrea_tm_news .news_list h3 a{
+.scof_tm_news .news_list h3 a{
 	text-decoration: none;
 	color: #fff;
 	
@@ -1604,10 +1637,10 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_news .news_list h3 a:hover{
+.scof_tm_news .news_list h3 a:hover{
 	color: var(--main-color);
 }
-.edrea_tm_news .news_list span a{
+.scof_tm_news .news_list span a{
 	text-decoration: none;
 	color: #A2A2A2;
 	font-size: 14px;
@@ -1618,26 +1651,26 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_news .news_list span a:hover{
+.scof_tm_news .news_list span a:hover{
 	color: #fff;
 }
-.edrea_tm_modalbox .news_popup_details{
+.scof_tm_modalbox .news_popup_details{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 50px 50px 42px 50px;
 }
-.edrea_tm_modalbox .news_popup_details .top_image{
+.scof_tm_modalbox .news_popup_details .top_image{
 	position: relative;
 	margin-bottom: 25px;
 }
-.edrea_tm_modalbox .news_popup_details .top_image img{
+.scof_tm_modalbox .news_popup_details .top_image img{
 	position: relative;
 	opacity: 0;
 	min-width: 100%;
 }
-.edrea_tm_modalbox .news_popup_details .top_image .main{
+.scof_tm_modalbox .news_popup_details .top_image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1648,16 +1681,16 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 10px;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title{
+.scof_tm_modalbox .news_popup_details .news_main_title{
 	width: 100%;
 	float:left; 
 	margin-bottom: 25px;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title h3{
+.scof_tm_modalbox .news_popup_details .news_main_title h3{
 	font-size: 25px; 
 	margin-bottom: 3px;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title a{
+.scof_tm_modalbox .news_popup_details .news_main_title a{
 	color: #A2A2A2;
 	text-decoration: none;
 	
@@ -1667,31 +1700,31 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title a:hover{
+.scof_tm_modalbox .news_popup_details .news_main_title a:hover{
 	color: #fff;
 }
-.edrea_tm_modalbox .news_popup_details .text{
+.scof_tm_modalbox .news_popup_details .text{
 	width: 100%;
 	float: left;
 }
-.edrea_tm_modalbox .news_popup_details .text p{
+.scof_tm_modalbox .news_popup_details .text p{
 	margin-bottom: 10px;
 }
-.edrea_tm_modalbox .news_popup_details .text p:last-child{
+.scof_tm_modalbox .news_popup_details .text p:last-child{
 	margin-bottom: 0px;
 }
 
 /*---------------------------------------------------*/
-/*	09) EDREA CONTACT
+/*	09) scof CONTACT
 /*---------------------------------------------------*/
 
-.edrea_tm_contact{
+.scof_tm_contact{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.edrea_tm_contact .wrapper{
+.scof_tm_contact .wrapper{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1699,23 +1732,23 @@ h6 { font-size: 16px; }
 	display: flex;
 	padding-top: 60px;
 }
-.edrea_tm_contact .wrapper .left{
+.scof_tm_contact .wrapper .left{
 	width: 50%;
 	padding-right: 50px;
 }
-.edrea_tm_contact .wrapper .left ul{
+.scof_tm_contact .wrapper .left ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.edrea_tm_contact .wrapper .left ul li{
+.scof_tm_contact .wrapper .left ul li{
 	margin: 0px 0px 20px 0px;
 	width: 100%;
 	float: left;
 }
-.edrea_tm_contact .wrapper .left ul li:last-child{
+.scof_tm_contact .wrapper .left ul li:last-child{
 	margin-bottom: 0px;
 }
-.edrea_tm_contact .wrapper .left ul li .list_inner{
+.scof_tm_contact .wrapper .left ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1725,7 +1758,7 @@ h6 { font-size: 16px; }
 	border-radius: 10px;
 	padding: 10px;
 }
-.edrea_tm_contact .wrapper .left ul li i{
+.scof_tm_contact .wrapper .left ul li i{
 	color: var(--main-color);
 	font-size: 16px;
 	position: absolute;
@@ -1734,11 +1767,11 @@ h6 { font-size: 16px; }
 	margin-top: 1px;
 	transform: translateY(-50%);
 }
-.edrea_tm_contact .wrapper .left ul li span{
+.scof_tm_contact .wrapper .left ul li span{
 	display: inline-block;
 	padding-left: 48px;
 }
-.edrea_tm_contact .wrapper .left ul li a{
+.scof_tm_contact .wrapper .left ul li a{
 	text-decoration: none;
 	color: #fff;
 	
@@ -1748,35 +1781,35 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_contact .wrapper .left ul li a:hover{
+.scof_tm_contact .wrapper .left ul li a:hover{
 	color: var(--main-color);
 }
-.edrea_tm_contact .wrapper .right{
+.scof_tm_contact .wrapper .right{
 	width: 50%;
 	padding-left: 50px;
 }
-.edrea_tm_contact .fields{
+.scof_tm_contact .fields{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.edrea_tm_contact .fields .first{
+.scof_tm_contact .fields .first{
 	width: 100%;
 	float: left;
 	margin-bottom: 20px;
 }
-.edrea_tm_contact .fields .first ul{
+.scof_tm_contact .fields .first ul{
 	margin: 0px 0px 0px -20px;
 	list-style-type: none;
 }
-.edrea_tm_contact .fields .first ul li{
+.scof_tm_contact .fields .first ul li{
 	margin: 0px;
 	width: 50%;
 	padding-left: 20px;
 	float: left;
 }
-.edrea_tm_contact .fields .first ul li .list_inner{
+.scof_tm_contact .fields .first ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1784,7 +1817,7 @@ h6 { font-size: 16px; }
 	background-color: #222;
 	border-radius: 10px;
 }
-.edrea_tm_contact .fields .first ul li input{
+.scof_tm_contact .fields .first ul li input{
 	width: 100%;
 	height: 45px;
 	background-color: transparent;
@@ -1793,17 +1826,17 @@ h6 { font-size: 16px; }
 	padding: 20px;
 	font-family: "Poppins";
 }
-.edrea_tm_contact .fields .first ul li input:focus{
+.scof_tm_contact .fields .first ul li input:focus{
 	outline: none;
 }
-.edrea_tm_contact .fields .last{
+.scof_tm_contact .fields .last{
 	width: 100%;
 	float: left;
 	background-color: #222;
 	border-radius: 10px;
 	margin-bottom: 20px;
 }
-.edrea_tm_contact .fields .last textarea{
+.scof_tm_contact .fields .last textarea{
 	width: 100%;
 	height: 108px;
 	background-color: transparent;
@@ -1813,22 +1846,22 @@ h6 { font-size: 16px; }
 	padding: 20px;
 	font-family: "Poppins";
 }
-.edrea_tm_contact .fields .last textarea:focus{
+.scof_tm_contact .fields .last textarea:focus{
 	outline: none;
 }
-.edrea_tm_contact .empty_notice{
+.scof_tm_contact .empty_notice{
 	color: #F52225;
 	margin-bottom: 7px;
 	display: none;
 	text-align: left;
 	font-weight: 500;
 }
-.edrea_tm_contact .contact_error{
+.scof_tm_contact .contact_error{
 	color: #F52225;
 	text-align: left;
 	font-weight: 500;
 }
-.edrea_tm_contact .returnmessage{
+.scof_tm_contact .returnmessage{
 	color:#3A00FF;
 	text-align: left;
 	font-weight: 500;
@@ -1882,7 +1915,7 @@ h6 { font-size: 16px; }
 .cursor-outer.cursor-hover{
   opacity: 0;
 }
-.edrea_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
+.scof_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
 	display: none;
 	opacity: 0;
 	visibility: hidden;
@@ -1895,7 +1928,7 @@ h6 { font-size: 16px; }
 /*	08) SHANE SETTINGS
 /*---------------------------------------------------*/
 
-.edrea_tm_settings{
+.scof_tm_settings{
 	position: fixed;
 	z-index: 10;
 	top: 20%;
@@ -1910,29 +1943,29 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.edrea_tm_settings.opened{
+.scof_tm_settings.opened{
 	right: 0px;
 }
-.edrea_tm_settings .wrapper{
+.scof_tm_settings .wrapper{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.edrea_tm_settings .icon{
+.scof_tm_settings .icon{
 	position: absolute;
 	top: 0px;
 	right: 100%;
 	background-color: #222;
 	padding: 12px 12px 4px 12px;
 }
-.edrea_tm_settings .icon .svg{
+.scof_tm_settings .icon .svg{
 	color: #fff;
 	width: 25px;
 	height: 25px;
 	animation: fa-spin 2s infinite linear;
 }
-.edrea_tm_settings .link{
+.scof_tm_settings .link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1961,7 +1994,7 @@ h6 { font-size: 16px; }
         transform: rotate(359deg);
     }
 }
-.edrea_tm_settings .title{
+.scof_tm_settings .title{
 	color: #fff;
 	font-family: "Poppins";
 	font-weight: 600;
@@ -1969,7 +2002,7 @@ h6 { font-size: 16px; }
 	position: relative;
 	display: inline-block;
 }
-.edrea_tm_settings .title:before{
+.scof_tm_settings .title:before{
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -1978,16 +2011,16 @@ h6 { font-size: 16px; }
 	left: 0px;
 	bottom: 0px;
 }
-.edrea_tm_settings .colors{
+.scof_tm_settings .colors{
 	margin: 0px 0px 22px 0px;
 	list-style-type: none;
 	padding-top: 32px;
 }
-.edrea_tm_settings .colors li{
+.scof_tm_settings .colors li{
 	margin: 0px;
 	display: inline-block;
 }
-.edrea_tm_settings .colors li a{
+.scof_tm_settings .colors li a{
 	text-decoration: none;
 	display: inline-block;
 	width: 30px;
@@ -1995,25 +2028,25 @@ h6 { font-size: 16px; }
 	border-radius: 100%;
 }
 
-.edrea_tm_settings .cursor{
+.scof_tm_settings .cursor{
 	margin: 0px;
 	list-style-type: none;
 	padding-top: 15px;
 }
-.edrea_tm_settings .cursor li{
+.scof_tm_settings .cursor li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
-.edrea_tm_settings .cursor li a{
+.scof_tm_settings .cursor li a{
 	text-decoration: none;
 	color: #fff;
 	opacity: .4;
 	font-weight: 600;
 }
-.edrea_tm_settings .cursor li a.showme{
+.scof_tm_settings .cursor li a.showme{
 	opacity: 1;
 }
-.edrea_tm_settings .cursor li:nth-child(1) a{
+.scof_tm_settings .cursor li:nth-child(1) a{
 	width: 30px;
 	height: 30px;
 	border-radius: 100%;
@@ -2021,7 +2054,7 @@ h6 { font-size: 16px; }
 	position: relative;
 	display: inline-block;
 }
-.edrea_tm_settings .cursor li:nth-child(1) a:before{
+.scof_tm_settings .cursor li:nth-child(1) a:before{
 	position: absolute;
 	content: "";
 	width: 4px;
@@ -2032,104 +2065,104 @@ h6 { font-size: 16px; }
 	left: 50%;
 	top: 50%;
 }
-.edrea_tm_settings .cursor li .svg{
+.scof_tm_settings .cursor li .svg{
 	width: 25px;
 	height: 25px;
 	color: #fff;
 }
-.edrea_tm_settings .cursor li:nth-child(2){
+.scof_tm_settings .cursor li:nth-child(2){
 	position: relative;
 	top: -2px;
 }
 
 /*---------------------------------------------------*/
-/*	11) EDREA MEDIA QUERIES (FOR SMALL DEVICES)
+/*	11) scof MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1400px) {
 	body{font-size: 15px;}
-	.edrea_tm_header{width: 800px;}
-	.edrea_tm_header .header_inner{padding-top: 30px;}
-	.edrea_tm_content{top: 80px;bottom: 80px;width: 800px;}
-	.edrea_tm_home .name{font-size: 55px;margin-bottom: 17px;}
-	.edrea_tm_home .job{font-size: 23px;margin-bottom: 32px;}
-	.edrea_tm_about .right .short .name{font-size: 32px;margin-bottom: 12px;}
-	.edrea_tm_about .right .short{margin-bottom: 20px;padding-bottom: 25px;}
-	.edrea_tm_about .right .short{margin-bottom: 30px;}
-	.edrea_tm_about .right{padding-left: 75px;}
-	.edrea_tm_about .right .text{margin-bottom: 30px;}
-	.edrea_tm_modalbox .box_inner{width: 700px;top: 35px;bottom: 35px;}
-	.edrea_tm_modalbox .close{margin-left: 20px;}
-	.edrea_tm_modalbox .close a{width: 35px;height: 35px;}
-	.edrea_tm_modalbox .about_popup_details .left{width: 35%;}
-	.edrea_tm_modalbox .about_popup_details .right{padding-left: 35%;}
-	.edrea_tm_modalbox .about_popup_details .left .left_inner{padding: 30px 25px;}
-	.edrea_tm_modalbox .about_popup_details .left .short .name{font-size: 19px;margin-bottom: 5px;}
-	.edrea_tm_modalbox .about_popup_details .left .list ul li{padding-bottom: 5px;margin-bottom: 5px;}
-	.edrea_tm_button a{padding: 8px 40px;}
-	.edrea_tm_modalbox .about_popup_details .left .list ul li span{padding-left: 32px;font-size: 14px;}
-	.edrea_tm_modalbox .about_popup_details .left .list ul li i{font-size: 15px;}
-	.edrea_tm_contact .wrapper{padding-top: 50px;}
-	.edrea_tm_portfolio .portfolio_list{padding-top: 50px;}
-	.edrea_tm_news .news_list{padding-top: 50px;}
-	.edrea_tm_news .news_list .image{max-height: 150px;}
-	.edrea_tm_news .news_list .details{padding: 25px 20px 22px 20px;}
+	.scof_tm_header{width: 800px;}
+	.scof_tm_header .header_inner{padding-top: 30px;}
+	.scof_tm_content{top: 80px;bottom: 80px;width: 800px;}
+	.scof_tm_home .name{font-size: 55px;margin-bottom: 17px;}
+	.scof_tm_home .job{font-size: 23px;margin-bottom: 32px;}
+	.scof_tm_about .right .short .name{font-size: 32px;margin-bottom: 12px;}
+	.scof_tm_about .right .short{margin-bottom: 20px;padding-bottom: 25px;}
+	.scof_tm_about .right .short{margin-bottom: 30px;}
+	.scof_tm_about .right{padding-left: 75px;}
+	.scof_tm_about .right .text{margin-bottom: 30px;}
+	.scof_tm_modalbox .box_inner{width: 700px;top: 35px;bottom: 35px;}
+	.scof_tm_modalbox .close{margin-left: 20px;}
+	.scof_tm_modalbox .close a{width: 35px;height: 35px;}
+	.scof_tm_modalbox .about_popup_details .left{width: 35%;}
+	.scof_tm_modalbox .about_popup_details .right{padding-left: 35%;}
+	.scof_tm_modalbox .about_popup_details .left .left_inner{padding: 30px 25px;}
+	.scof_tm_modalbox .about_popup_details .left .short .name{font-size: 19px;margin-bottom: 5px;}
+	.scof_tm_modalbox .about_popup_details .left .list ul li{padding-bottom: 5px;margin-bottom: 5px;}
+	.scof_tm_button a{padding: 8px 40px;}
+	.scof_tm_modalbox .about_popup_details .left .list ul li span{padding-left: 32px;font-size: 14px;}
+	.scof_tm_modalbox .about_popup_details .left .list ul li i{font-size: 15px;}
+	.scof_tm_contact .wrapper{padding-top: 50px;}
+	.scof_tm_portfolio .portfolio_list{padding-top: 50px;}
+	.scof_tm_news .news_list{padding-top: 50px;}
+	.scof_tm_news .news_list .image{max-height: 150px;}
+	.scof_tm_news .news_list .details{padding: 25px 20px 22px 20px;}
 }
 @media (max-width: 1040px) {
 	.mouse-cursor{display: none;}
 	#preloader{display: none;}
-	.edrea_tm_header{display: none;}
-	.edrea_tm_topbar{display: block;}
-	.edrea_tm_content{width: 100%;top: 70px;bottom: 70px;}
-	.edrea_tm_home{padding: 0px 20px;}
-	.edrea_tm_about{flex-direction: column;align-items: baseline;padding: 0px 20px;}
-	.edrea_tm_about .left{width: 100%;margin-bottom: 40px;}
-	.edrea_tm_about .right{width: 100%;padding-left: 0px;}
-	.edrea_tm_about .right .short .name{font-size: 30px;margin-bottom: 13px;}
-	.edrea_tm_about .right .short .job{font-size: 16px;}
-	.edrea_tm_about .right .short{margin-bottom: 19px;padding-bottom: 25px;}
-	.edrea_tm_modalbox .box_inner{width: 700px;}
-	.edrea_tm_modalbox .close{left: auto;right: 10px;top: 10px;}
-	.edrea_tm_modalbox .close a{width: 30px;height: 30px;}
-	.edrea_tm_modalbox .close a i{font-size: 13px;}
-	.edrea_tm_modalbox .about_popup_details .left{position: relative;width: 100%;border: none;}
-	.edrea_tm_modalbox .about_popup_details .right{position: relative;padding: 0px;}
-	.edrea_tm_modalbox .about_popup_details .left .avatar_image{max-width: 50%;}
-	.edrea_tm_modalbox .about_popup_details .right .right_inner{padding: 20px 20px 50px 20px;}
-	.edrea_tm_modalbox .about_popup_details .left .left_inner{padding: 50px 20px;}
-	.edrea_tm_main_title h3{font-size: 26px;}
-	.edrea_tm_portfolio{padding: 0px 20px;}
-	.edrea_tm_swiper_progress{margin-top: 25px;}
-	.edrea_tm_news{padding: 0px 20px;}
-	.edrea_tm_news .news_list .image{max-height: 100%;}
-	.edrea_tm_contact{padding: 0px 20px;}
-	.edrea_tm_contact .wrapper{flex-direction: column;align-items: baseline;}
-	.edrea_tm_contact .wrapper .left{padding: 0px;width: 100%;margin-bottom: 20px;}
-	.edrea_tm_contact .wrapper .right{padding: 0px;width: 100%;}
-	.edrea_tm_contact .fields .first ul{margin: 0px;}
-	.edrea_tm_contact .fields .first ul li{width: 100%;padding-left: 0px;}
-	.edrea_tm_contact .fields .first ul li:first-child{margin-bottom: 20px;}
+	.scof_tm_header{display: none;}
+	.scof_tm_topbar{display: block;}
+	.scof_tm_content{width: 100%;top: 70px;bottom: 70px;}
+	.scof_tm_home{padding: 0px 20px;}
+	.scof_tm_about{flex-direction: column;align-items: baseline;padding: 0px 20px;}
+	.scof_tm_about .left{width: 100%;margin-bottom: 40px;}
+	.scof_tm_about .right{width: 100%;padding-left: 0px;}
+	.scof_tm_about .right .short .name{font-size: 30px;margin-bottom: 13px;}
+	.scof_tm_about .right .short .job{font-size: 16px;}
+	.scof_tm_about .right .short{margin-bottom: 19px;padding-bottom: 25px;}
+	.scof_tm_modalbox .box_inner{width: 700px;}
+	.scof_tm_modalbox .close{left: auto;right: 10px;top: 10px;}
+	.scof_tm_modalbox .close a{width: 30px;height: 30px;}
+	.scof_tm_modalbox .close a i{font-size: 13px;}
+	.scof_tm_modalbox .about_popup_details .left{position: relative;width: 100%;border: none;}
+	.scof_tm_modalbox .about_popup_details .right{position: relative;padding: 0px;}
+	.scof_tm_modalbox .about_popup_details .left .avatar_image{max-width: 50%;}
+	.scof_tm_modalbox .about_popup_details .right .right_inner{padding: 20px 20px 50px 20px;}
+	.scof_tm_modalbox .about_popup_details .left .left_inner{padding: 50px 20px;}
+	.scof_tm_main_title h3{font-size: 26px;}
+	.scof_tm_portfolio{padding: 0px 20px;}
+	.scof_tm_swiper_progress{margin-top: 25px;}
+	.scof_tm_news{padding: 0px 20px;}
+	.scof_tm_news .news_list .image{max-height: 100%;}
+	.scof_tm_contact{padding: 0px 20px;}
+	.scof_tm_contact .wrapper{flex-direction: column;align-items: baseline;}
+	.scof_tm_contact .wrapper .left{padding: 0px;width: 100%;margin-bottom: 20px;}
+	.scof_tm_contact .wrapper .right{padding: 0px;width: 100%;}
+	.scof_tm_contact .fields .first ul{margin: 0px;}
+	.scof_tm_contact .fields .first ul li{width: 100%;padding-left: 0px;}
+	.scof_tm_contact .fields .first ul li:first-child{margin-bottom: 20px;}
 }
 @media (max-width: 768px) {
-	.edrea_tm_home .name{font-size: 40px;margin-bottom: 14px;}
-	.edrea_tm_home .job{font-size: 18px;margin-bottom: 30px;}
-	.edrea_tm_modalbox .box_inner{width: 300px;}
-	.edrea_tm_modalbox .close a{width: 20px;height: 20px;}
-	.edrea_tm_modalbox .close a i{font-size: 10px;}
+	.scof_tm_home .name{font-size: 40px;margin-bottom: 14px;}
+	.scof_tm_home .job{font-size: 18px;margin-bottom: 30px;}
+	.scof_tm_modalbox .box_inner{width: 300px;}
+	.scof_tm_modalbox .close a{width: 20px;height: 20px;}
+	.scof_tm_modalbox .close a i{font-size: 10px;}
 	.circular_progress_bar ul li{width: 50%;}
-	.edrea_tm_modalbox .about_popup_details .timeline .list ul li .list_inner{flex-direction: column;}
-	.edrea_tm_modalbox .about_popup_details .timeline .list ul li .place{padding-left: 0px;width: 100%;}
-	.edrea_tm_modalbox .about_popup_details .timeline .list ul li .time{width: auto;padding: 0px;margin-bottom: 20px;}
-	.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text{padding: 30px;}
-	.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text:before{left: 30px;}
-	.edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text:after{left: 30px;}
-	.edrea_tm_modalbox .about_popup_details .testimonial .details{padding-left: 0px;}
-	.edrea_tm_modalbox .portfolio_popup_details{padding-left: 20px;padding-right: 20px;}
-	.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title h3{font-size: 20px;}
-	.edrea_tm_modalbox .portfolio_popup_details .additional_images ul{margin: 0px;}
-	.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li{width: 100% !important;padding-left: 0px;}
-	.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title{margin-bottom: 18px;}
-	.edrea_tm_modalbox .news_popup_details{padding-left: 20px;padding-right: 20px;}
-	.edrea_tm_modalbox .news_popup_details .news_main_title h3{font-size: 20px;}
-	.edrea_tm_modalbox .news_popup_details .news_main_title{margin-bottom: 18px;}	
+	.scof_tm_modalbox .about_popup_details .timeline .list ul li .list_inner{flex-direction: column;}
+	.scof_tm_modalbox .about_popup_details .timeline .list ul li .place{padding-left: 0px;width: 100%;}
+	.scof_tm_modalbox .about_popup_details .timeline .list ul li .time{width: auto;padding: 0px;margin-bottom: 20px;}
+	.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text{padding: 30px;}
+	.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text:before{left: 30px;}
+	.scof_tm_modalbox .about_popup_details .testimonial .list ul li .text:after{left: 30px;}
+	.scof_tm_modalbox .about_popup_details .testimonial .details{padding-left: 0px;}
+	.scof_tm_modalbox .portfolio_popup_details{padding-left: 20px;padding-right: 20px;}
+	.scof_tm_modalbox .portfolio_popup_details .portfolio_main_title h3{font-size: 20px;}
+	.scof_tm_modalbox .portfolio_popup_details .additional_images ul{margin: 0px;}
+	.scof_tm_modalbox .portfolio_popup_details .additional_images ul li{width: 100% !important;padding-left: 0px;}
+	.scof_tm_modalbox .portfolio_popup_details .portfolio_main_title{margin-bottom: 18px;}
+	.scof_tm_modalbox .news_popup_details{padding-left: 20px;padding-right: 20px;}
+	.scof_tm_modalbox .news_popup_details .news_main_title h3{font-size: 20px;}
+	.scof_tm_modalbox .news_popup_details .news_main_title{margin-bottom: 18px;}	
 }
