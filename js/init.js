@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
 	scof_tm_trigger_menu();
 	scof_tm_about_popup();
 	scof_tm_portfolio_popup();
-	scof_tm_news_popup();
+	scof_tm_activity_popup();
 	scof_tm_cursor();
 	scof_tm_imgtosvg();
 	scof_tm_popup();
@@ -264,15 +264,15 @@ function scof_tm_portfolio_popup(){
 }
 
 // -------------------------------------------------
-// ----------------  NEWS POPUP  -------------------
+// ----------------  ACTIVITY POPUP  -------------------
 // -------------------------------------------------
 
-function scof_tm_news_popup(){
+function scof_tm_activity_popup(){
 	
 	"use strict";
 	
 	var modalBox		= jQuery('.scof_tm_modalbox');
-	var button			= jQuery('.scof_tm_news .news_popup,.scof_tm_news .news_list h3 a');
+	var button			= jQuery('.scof_tm_activity .activity_popup,.scof_tm_activity .activity_list h3 a');
 	var closePopup		= modalBox.find('.close');
 	
 	button.off().on('click',function(){
@@ -284,8 +284,8 @@ function scof_tm_news_popup(){
 		var category	= parent.find('.details span').html();
 		modalBox.addClass('opened');
 		modalBox.find('.description_wrap').html(content);
-		modalBox.find('.news_popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
-		modalBox.find('.news_popup_details .top_image').after('<div class="news_main_title"><h3>'+title+'</h3><span>'+category+'</span><div>');
+		modalBox.find('.activity_popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
+		modalBox.find('.activity_popup_details .top_image').after('<div class="activity_main_title"><h3>'+title+'</h3><span>'+category+'</span><div>');
 		scof_tm_data_images();
 		return false;
 	});
