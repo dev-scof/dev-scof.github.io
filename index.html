@@ -68,7 +68,13 @@
 				<span class="title">Magic Cursor</span>
 				<ul class="cursor">
 					<li><a class="showme show" href="#"></a></li>
-					<li><a class="hide" href="#"><img class="svg" src="img/arrow.svg" alt="" /></a></li>
+					<li><a class="hide" href="#"><img class="svg" src="img/arrow.svg" alt=""/></a></li>
+				</ul>
+				<span class="title">Language</span>
+				<ul class="lang">
+					<li><a class="showme" id="enbtn" data-lang="en" href="#">ENG</a></li>
+					<span> | </span>
+					<li><a id="kobtn" data-lang="ko" href="#">KOR</a></li>
 				</ul>
 			</div>
 		</div>
@@ -172,7 +178,7 @@
 								</h3>
 							</div>
 							<div class="text">
-								<p>
+								<p data-about-content="0">
 									Hello, I'm <span>Scof (yongwook, SONG)</span> and passionate developer.
 									<br>I am currently working on backend development(Python Frameworks), and DevOps infrastructure development.
 									<br>I strive for efficient coding as well as implementing service functions.
@@ -250,7 +256,7 @@
 													<h3><span>About <span class="coloring">Me</span></span></h3>
 												</div>
 												<div class="text">
-													<p>
+													<p data-about-content="0">
 														Hello, I'm <span>Scof (yongwook, SONG)</span> and passionate developer.
 														<br>I am currently working on backend development(Python Frameworks), and DevOps infrastructure development.
 														<br>I strive for efficient coding as well as implementing service functions.
@@ -317,8 +323,8 @@
 																	<span>2019 - 2020</span>
 																</div>
 																<div class="place">
-																	<h3>Sejong University</h3>
-																	<span>Teaching Assistant</span>
+																	<h3 data-about-content="1">Sejong University</h3>
+																	<span data-about-content="3">Teaching Assistant</span>
 																</div>
 															</div>
 														</li>
@@ -328,9 +334,9 @@
 																	<span>2017 - 2023</span>
 																</div>
 																<div class="place">
-																	<h3>Sejong University</h3>
-																	<span>Interface Computer Club</span><br>
-																	<span>The head of an academic department</span>
+																	<h3 data-about-content="1">Sejong University</h3>
+																	<span data-about-content="4">Interface Computer Club</span><br>
+																	<span data-about-content="5">Academic Manager</span>
 																</div>
 															</div>
 														</li>
@@ -340,8 +346,8 @@
 																	<span>2016 - 2023</span>
 																</div>
 																<div class="place">
-																	<h3>Sejong University</h3>
-																	<span>Bachelor of Computer Engineering</span>
+																	<h3 data-about-content="1">Sejong University</h3>
+																	<span data-about-content="6">Bachelor of Computer Engineering</span>
 																</div>
 															</div>
 														</li>
@@ -351,8 +357,8 @@
 																	<span>2013 - 2016</span>
 																</div>
 																<div class="place">
-																	<h3>Inje High School</h3>
-																	<span>Computer Club</span>
+																	<h3 data-about-content="2">Inje High School</h3>
+																	<span  data-about-content="7">Computer Club</span>
 																</div>
 															</div>
 														</li>
@@ -367,22 +373,22 @@
 												<div class="list">
 													<ul>
 														<li><i class="icon-right-dir coloring"></i>
-															2nd, 14th Computer Science and Engineering Creative Design Contest (Sejong University, 2022. 12. 22)
+															<span data-about-content="8">2nd, 14th Computer Science and Engineering Creative Design Contest (Sejong University, 2022. 12. 22)</span>
 														</li>
 														<li><i class="icon-right-dir coloring"></i>
-															4th, The 4th SW Coding Contest (Sejong University, 2017. 11. 28)
+															<span data-about-content="9">4th, The 4th SW Coding Contest (Sejong University, 2017. 11. 28)</span>
 														</li>
 														<li><i class="icon-right-dir coloring"></i>
-															2nd, The 4th Sejong KB Creative Sharing Volunteer Group. (Sejong University, 2017. 09, 06)
+															<span data-about-content="10">2nd, The 4th Sejong KB Creative Sharing Volunteer Group. (Sejong University, 2017. 09, 06)</span>
 														</li>
 														<li><i class="icon-right-dir coloring"></i>
-															4th, Sejong University SW Hackathon (Sejong University, 2017. 06. 27)
+															<span data-about-content="11">4th, Sejong University SW Hackathon (Sejong University, 2017. 06. 27)</span>
 														</li>
 														<li><i class="icon-right-dir coloring"></i>
-															4th, Algorithm Contest (Sejong University, 2016. 11. 18)
+															<span data-about-content="12">4th, Algorithm Contest (Sejong University, 2016. 11. 18)</span>
 														</li>
 														<li><i class="icon-right-dir coloring"></i>
-															4th, Computer Club Presentation Contest (Inje High School , 2014. 01. 07)
+															<span data-about-content="13">4th, Computer Club Presentation Contest (Inje High School , 2014. 01. 07)</span>
 														</li>
 													</ul>
 												</div>
@@ -483,7 +489,7 @@
 											<!-- Portfolio Popup Informations -->
 											<div class="scof_tm_hidden_content">
 												<div class="portfolio_popup_details">
-													<div class="text">
+													<div class="text" data-portfolio-content="0">
 														<p>As the years go by, agricultural damage caused by plant pests is increasing, but many pests are not even counted.</p>
 														<p>In particular, criticism is raised that the lack of experts is a factor that domestic agriculture is helplessly affected by the attack on pests. Amid the discovery of foreign pests one after another due to climate change, the reality is that there is a lack of experts who can find the first foreign pests on time and present a clear control method.</p>
 														<p>As such, the number of pests of foreign species is increasing and the damage is increasing, but the reality is that there is an infinite lack of experts who can respond to this.</p>
@@ -544,7 +550,7 @@
 											<!-- Portfolio Popup Informations -->
 											<div class="scof_tm_hidden_content">
 												<div class="portfolio_popup_details">
-													<div class="text">
+													<div class="text" data-portfolio-content="1">
 														<p>The Camping Car Project is a Java GUI project that provides a quick, at-a-glance view of the overall management of camping cars, such as renting, repairing, and returning camping cars.</p>
 														<p>The camper project enabled us to create applications that could solve specific problems by applying relational databases.</p>
 														<p>In addition, problem-solving and critical thinking skills could be improved by facing and overcoming various errors in the development process.</p>
@@ -602,7 +608,7 @@
 											<!-- Portfolio Popup Informations -->
 											<div class="scof_tm_hidden_content">
 												<div class="portfolio_popup_details">
-													<div class="text">
+													<div class="text" data-portfolio-content="2">
 														<p>Unlike in the past, most people use prefabricated computers rather than finished computers these days.</p>
 														<p>Each user is free to customize quotes for special purposes.</p>
 														<p>However, users who do not have knowledge of computer hardware have a lot of difficulty fitting assembled computers.</p>
@@ -668,7 +674,7 @@
 											<!-- Portfolio Popup Informations -->
 											<div class="scof_tm_hidden_content">
 												<div class="portfolio_popup_details">
-													<div class="text">
+													<div class="text" data-portfolio-content="3">
 														<p>There are many good restaurants near Sejong University, so students always think about what to eat when it's meal time. The "Indecisive" project was created to shorten the time to think about what to eat.</p>
 														<p>"Indecisive" recommends food (restaurants) that can be eaten near Sejong University for Sejong University students who are thinking about what to eat whenever it is meal time.</p>
 														<p>To consider user preferences, we have created categories of "Korean food," "Western food," "Chinese food," and "Japanese food," which allow user to determine restaurants in specific categories.</p>
@@ -728,7 +734,7 @@
 											<!-- Portfolio Popup Informations -->
 											<div class="scof_tm_hidden_content">
 												<div class="portfolio_popup_details">
-													<div class="text">
+													<div class="text" data-portfolio-content="4">
 														<p>If you can connect home electrical and electronic appliances to a network and control them both in and out of the house, you will have a more convenient life.</p>
 														<p>We decided to to proceed with the project with the goal of controlling the LED light bulb connected to the Raspberry Pi, a small computer, through a mobile application.</p>
 													</div>
@@ -1053,7 +1059,9 @@
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="js/plugins.js"></script>
 <script src="js/init.js"></script>
+<script src="js/lang.js"></script>
 <!-- /SCRIPTS -->
+
 
 </body>
 </html>

@@ -28,8 +28,9 @@ jQuery(document).ready(function(){
 	scof_tm_location();
 	scof_tm_color_switcher();
 	scof_tm_cursor_switcher();
+	scof_tm_lang_switcher();
 	scof_tm_switcher_opener();
-	
+	scof_tm_about_content();
 	jQuery(window).load('body', function(){
 		scof_tm_my_load();
 	});
@@ -222,6 +223,8 @@ function scof_tm_about_popup(){
 		scof_tm_circular_progress();
 		scof_tm_mycarousel();
 		scof_tm_location();
+		scof_tm_about_content();
+
 	});
 	close.on('click',function(){
 		modalBox.removeClass('opened');
@@ -254,6 +257,7 @@ function scof_tm_portfolio_popup(){
 		modalBox.find('.portfolio_popup_details .top_image').after('<div class="portfolio_main_title"><h3>'+title+'</h3><span><a href="#">'+category+'</a></span><div>');
 		scof_tm_data_images();
 		scof_tm_popup();
+		scof_tm_portfolio_content();
 		return false;
 	});
 	closePopup.on('click',function(){
@@ -448,6 +452,7 @@ function scof_tm_data_images(){
 		element.css({backgroundImage: 'url('+url+')'});
 	});
 }
+
 
 // -----------------------------------------------------
 // ----------------    CONTACT FORM    -----------------
@@ -688,6 +693,27 @@ function scof_tm_cursor_switcher(){
 	
 }
 
+function scof_tm_lang_switcher(){
+	//////////////////////////////////////////////////////
+	// TODO: 클릭시 모든 내용이 해당 언어로 바뀌어야 한다.
+	//////////////////////////////////////////////////////
+	"use strict";
+	
+	var button		= jQuery('.scof_tm_settings .lang li a');
+	
+	button.on('click',function(){
+		var element = jQuery(this);
+		if(!element.hasClass('showme')){
+			button.removeClass('showme');
+			element.addClass('showme');
+			document.documentElement.setAttribute("lang", element.data('lang'));
+			scof_tm_about_content();
+		}
+		return false;
+	});
+	
+}
+
 function scof_tm_switcher_opener(){
 
 	"use strict";
@@ -706,4 +732,37 @@ function scof_tm_switcher_opener(){
 		}
 		return false;
 	});
+}
+
+// -----------------------------------------------------
+// ---------------   ABOUT CONTENT    --------------------
+// -----------------------------------------------------
+function scof_tm_about_content(){
+	"use strict";
+
+	$('[data-about-content]').each(function(){
+		$(this).html($.about[document.documentElement.getAttribute("lang")][$(this).data('aboutContent')]);
+	})
+}
+
+// -----------------------------------------------------
+// ---------------   PORTFOLIO CONTENT    --------------------
+// -----------------------------------------------------
+function scof_tm_portfolio_content(){
+	"use strict";
+
+	$('[data-portfolio-content]').each(function(){
+		$(this).html($.portfolio[document.documentElement.getAttribute("lang")][$(this).data('portfolioContent')]);
+	})
+}
+
+// -----------------------------------------------------
+// ---------------   ACTIVITY CONTENT    --------------------
+// -----------------------------------------------------
+function scof_tm_activity_content(){
+	"use strict";
+
+	$('[data-activity-content]').each(function(){
+		$(this).html($.activity[document.documentElement.getAttribute("lang")][$(this).data('activityContent')]);
+	})
 }

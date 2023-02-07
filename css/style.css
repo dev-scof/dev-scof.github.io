@@ -2075,6 +2075,32 @@ h6 { font-size: 16px; }
 	top: -2px;
 }
 
+.scof_tm_settings .lang{
+	margin: 0px;
+	list-style-type: none;
+	padding-top: 15px;
+}
+.scof_tm_settings .lang span{
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.scof_tm_settings .lang li{
+	display: inline-block;
+	background-color: transparent;
+	margin: 0;
+}
+.scof_tm_settings .lang li a{
+	font-weight: 600;
+	background-color: transparent;
+	color: white;
+	border: none;
+	text-decoration: none;
+	opacity: .4;
+}
+.scof_tm_settings .lang li a.showme{
+	opacity: 1;
+}
 /*---------------------------------------------------*/
 /*	11) scof MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
