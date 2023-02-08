@@ -31,6 +31,7 @@ jQuery(document).ready(function(){
 	scof_tm_lang_switcher();
 	scof_tm_switcher_opener();
 	scof_tm_about_content();
+	scof_tm_activity_content();
 	jQuery(window).load('body', function(){
 		scof_tm_my_load();
 	});
@@ -291,6 +292,7 @@ function scof_tm_activity_popup(){
 		modalBox.find('.activity_popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
 		modalBox.find('.activity_popup_details .top_image').after('<div class="activity_main_title"><h3>'+title+'</h3><span>'+category+'</span><div>');
 		scof_tm_data_images();
+		scof_tm_activity_content();
 		return false;
 	});
 	closePopup.on('click',function(){
@@ -694,9 +696,6 @@ function scof_tm_cursor_switcher(){
 }
 
 function scof_tm_lang_switcher(){
-	//////////////////////////////////////////////////////
-	// TODO: 클릭시 모든 내용이 해당 언어로 바뀌어야 한다.
-	//////////////////////////////////////////////////////
 	"use strict";
 	
 	var button		= jQuery('.scof_tm_settings .lang li a');
@@ -708,6 +707,7 @@ function scof_tm_lang_switcher(){
 			element.addClass('showme');
 			document.documentElement.setAttribute("lang", element.data('lang'));
 			scof_tm_about_content();
+			scof_tm_activity_content();
 		}
 		return false;
 	});

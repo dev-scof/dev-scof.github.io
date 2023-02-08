@@ -1,12 +1,13 @@
 // About Language Pack
 $.about = {};
 $.about.ko = {
-    0: `안녕하세요. 열정적인 개발자 <span>Scof(송용욱)</span>입니다.
-    <br>저는 현재 백엔드 개발(Python Frameworks)과 DevOps 인프라 개발에 종사하고 있습니다.
-    <br> 저는 효율적인 코딩과 서비스 기능 구현을 위해 노력하고 있습니다.
-    <br>입니다이것은 나를 소개하고 나의 성장 일지를 기록하는 공간입니다. 이것은 나의 성장 일기와 같습니다.
-    <br> 궁금하신 점 있으시면 언제든지 연락주세요.
-    <br>입니다감사해요!`,
+    0: `안녕하세요. 꾸준히 성장해 나가는 개발자 <span>Scof (송용욱)</span>입니다.
+    <br>저는 현재 백엔드 개발(Python Frameworks)과 DevOps 인프라 개발을 하고 있으며, 서버(백엔드)와 관련된 전반적인 시스템 이해도를 높일 수 있도록 다양한 시도와 공부를 하고 있습니다.
+    <br>서비스 기능 구현뿐만 아니라 효율적인 코딩을 위해 노력합니다.
+    <br>이곳은 저를 소개하고, 저의 성장 일지를 기록하는 공간입니다.
+    <br>이곳은 저의 성장 일기와 같습니다.
+    <br>궁금하신 점 있으시면 언제든지 연락주세요.
+    <br>감사합니다!`,
     1:`세종대학교`,
     2:`인제고등학교`,
     3:`세종대학교 조교 활동`,
@@ -23,9 +24,10 @@ $.about.ko = {
 }
 $.about.en = {
     0:`Hello, I'm <span>Scof (yongwook, SONG)</span> and passionate developer.
-    <br>I am currently working on backend development(Python Frameworks), and DevOps infrastructure development.
+    <br>I'm currently working on backend development(Python Frameworks), and DevOps infrastructure development, and and I'm trying and studying various things to improve my overall understanding of the system related to the server (backend).
     <br>I strive for efficient coding as well as implementing service functions.
-    <br>This is a space that introduces me and records my growth log. This is like my growing up diary.
+    <br>This is a space that introduces me and records my growth log.
+    <br>This is like my growing up diary.
     <br>Please feel free to contact me if you have any questions.
     <br>Thank you!`,
     1:`Sejong University`,
@@ -58,8 +60,8 @@ $.portfolio.ko = {
     <p>하지만, 컴퓨터 하드웨어 관련 지식이 없는 사용자들은 조립 컴퓨터를 맞추는 것에 많은 어려움이 있습니다. 또한, 대표적인 하드웨어만 알고 다른 부가적인 장치들에 대해서만 지식이 부족한 사람들도 있습니다.</p>
     <p>Comtris는 이러한 사용자를 타겟층으로 잡아, 조립 PC의 견적을 추천해주는 시스템입니다.</p>
     <pre>예를들어,
--특정한 프로그램을 돌리기 위해서는 CPU는 Ryzen 5600은 필요할 것 같아, 근데 다른 부품은 무엇을 써야하지?
-- 나는 램이 그래픽카드는 RTX3060이면 좋겠어, 근데 다른 부품은 무엇을 써야 할까?</pre>
+- 특정한 프로그램을 돌리기 위해서는 CPU는 Ryzen 5600은 필요할 것 같은데, 다른 부품은 무엇을 써야하지?
+- 나는 램이 그래픽카드는 RTX3060이면 좋겠는데, 다른 부품은 무엇을 써야 하지?</pre>
     <p>많은 사람들의 조립 PC의 견적을 보면 한가지 특징을 발견할 수 있습니다.</p>
     <p>특정 CPU에는 특정 M/B와 GPU를 많이 사용합니다. (물론, CPU의 소켓의 호환성 때문도 있지만, 같은 M/B 칩셋이지만 비레퍼런스 별로 세부 성능이 다르기 때문에 이러한 부분들에서 차이가 발생합니다.)</p>
     <p>따라서, 이러한 특징들을 이용하여 부품 6개 (CPU / GPU / RAM / M.B / SSD / POWER)를 비레퍼런스(브랜드), 성능, 사양 등의 지표를 가지고 학습을 시켜서 사용자에게 특정 부품에 관련하여 이러한 다른 부품들을 추천해주는 시스템입니다.</p>`,
@@ -103,64 +105,110 @@ $.portfolio.en = {
 // Activity Language Pack
 $.activity = {};
 $.activity.ko = {
-    0:`<p>창의 설계 경진대회는 세종대학교 학생들이 디자인한 캡스톤 수행 결과물을 동영상 콘텐츠로 제작해 발표하는 대회입니다.</p>
+    0:`제 14회 창의 설계 경진 대회`,
+    1:`세종대학교`,
+    2:`<p>창의 설계 경진대회는 세종대학교 학생들이 디자인한 캡스톤 수행 결과물을 동영상 콘텐츠로 제작해 발표하는 대회입니다.</p>
     <p>이번 대회는 학생들이 창의적인 제품을 개발해 설계 프로젝트를 수행하는 능력을 향상시키고자 마련되었습니다.</p>
     <p>저는 “SESCO” 프로젝트에 참여하여, “최우수상”을 수상했습니다.</p>`,
-    1:`<p>인터페이스는 세종대 중앙동아리 소속으로 미적, 물리 및 프로그래밍 언어 등의 스터디를 진행하며 회원들은 교내외 다양한 프로그램 공모전에서 우수한 성적을 거두고 있습니다./<p>
+    
+    3:`프로그래밍 전시회`,
+    4:`인터페이스`,
+    5:`<p>인터페이스는 세종대 중앙동아리 소속으로 미적, 물리 및 프로그래밍 언어 등의 스터디를 진행하며 회원들은 교내외 다양한 프로그램 공모전에서 우수한 성적을 거두고 있습니다./<p>
     <p>이번 프로그래밍 전시회는 10월부터 3개월간 동아리 회원들이 팀을 이뤄 각 팀별로 아이디어를 생각하고 만든 프로그램을 시연하는 행사입니다./<p>
     <p>이번 전시회에는 총 4팀이 참가했으며, 각 팀당 하나의 프로그램을 개발하여 시연했습니다./<p>
     <p>나에게 필요한 약이 무엇이고, 어디에 있는지 찾아주는 앱인 ‘Me-ching‘, ATM의 위치를 은행별로 알려주는 앱인 ’All About ATM‘, 세종대 홈페이지 공지게시판을 활용한 ’세종대 공지‘, 동아리 회원관리 및 다양한 소식을 알 수 있는 ’Interface Check’로 총 4가지 프로젝트를 시연했습니다./<p>
     <p>저는 Me-ching, All About ATM 프로젝트에서 팀장을 맡아 팀원들을 이끌어주는 역할을 수행했습니다.<p>`,
-    2:`<p>세종KB 창의나눔 봉사단은 학생 스스로 기획하고 실천하는 창의적인 기획형 봉사 프로그램입니다. 이는 헌신적 리더십을 갖춘 미래형 인재를 양성하고자 지난 2014년 2학기부터 시행했습니다.</p>
+    
+    6:`제 4기 세종 KB 창의 나눔 봉사단`,
+    7:`세종대학교`,
+    8:`<p>세종KB 창의나눔 봉사단은 학생 스스로 기획하고 실천하는 창의적인 기획형 봉사 프로그램입니다. 이는 헌신적 리더십을 갖춘 미래형 인재를 양성하고자 지난 2014년 2학기부터 시행했습니다.</p>
     <p>참가자들은 활동비를 지원 받으며 자신이 기획한 프로그램에 따라 활동을 진행한 뒤 결과물(보고서, UCC)을 제출하면 심사를 거쳐 활동 우수팀에 한해 장학금을 지급받을 수 있습니다.</p>
     <p>제4기 세종KB 블루 창의나눔 봉사단 활동은 오는 8월 중순까지 진행됩니다. 각 팀은 결과보고서와 UCC 등을 통해 활동결과를 정리할 예정입니다. 성과 공유회는 2학기에 활동할 세종KB 레드 창의나눔 봉사단과 함께 내년 초 개최될 예정입니다.</p>
     <p>저는 “실세(실버세상)” 팀에서 어플 개발 및 UCC제작을 했으며 우수상을 탔습니다.</p>
     <p>창의 나눔 봉사를 통해 하고 싶은 봉사활동을 직접 기획하고 할 수 있기에 재미있게 봉사활동을 진행 할 수 있었습니다. 또한 전공을 살리는 프로그램의 특성 덕분에 전공에 더욱 관심을 가지고 부족한 부분들을 채울 수 있었습니다. 그리고 교육을 받으시는 노인들께서 관심을 가져주시고 좋은 반응을 해주셔서 감사했습니다. 덕분에 저희도 재미있고 즐겁게 봉사를 할 수 있었으며 같이 활동을 하면서 정을 나눔으로써 특별한 관계를 가질 수 있어서 좋았습니다.</p>`,
-    3:`<p>현재 세종대학교는 모든 신입생을 대상으로 코딩교육을 실시하고 있으며 ES연계 전공 제도를 도입하여 SW융합 인재 양성에 힘쓰고 있습니다. 또한 소프트웨어중심대학은 프로그램 언어 인증시험을 도입하여 학생들의 코딩실력 향상에 도움을 주고 있습니다.</p>
+    
+    9:`C / Python 스터디`,
+    10:`인터페이스`,
+    11:`<p>현재 세종대학교는 모든 신입생을 대상으로 코딩교육을 실시하고 있으며 ES연계 전공 제도를 도입하여 SW융합 인재 양성에 힘쓰고 있습니다. 또한 소프트웨어중심대학은 프로그램 언어 인증시험을 도입하여 학생들의 코딩실력 향상에 도움을 주고 있습니다.</p>
     <p>인터페이스 동아리도 이러한 학교 교육프로그램에 발맞춰, 다양한 스터디를 진행 중입니다. 컴퓨터에 낯선 예체대나 인문대 학생들을 위한 기초코딩 스터디를 포함하여 소프트웨어중심대학 학생들을 위한 인증시험 스터디 등에 있어서 우수한 성적을 받은 선배들이 직접 지도합니다.</p>
     <p>저는 인터페이스 학술부장으로서 신입생들을 대상으로 주 2회씩 C언어 및 파이썬 언어 스터디를 진행했습니다.</p>
     <p>이를 통해 신입생들이 해당 프로그래밍 과목에서 우수한 성적을 거둘 수 있었으며, 이후에 있을 프로그래밍 전시회를 위한 기초를 다질 수 있었습니다.</p>`,
-    4:`<p>세종 SW 해커톤 대회는 제한된 시간 내 아이디어 기획부터 직접 개발까지 하는 대회로, 이 대회를 통해 학생들의 동기부여 및 성취감 고취시킵니다.</p>
+    
+    12:`제 2회 SW 해커톤 대회`,
+    13:`세종대학교`,
+    14:`<p>세종 SW 해커톤 대회는 제한된 시간 내 아이디어 기획부터 직접 개발까지 하는 대회로, 이 대회를 통해 학생들의 동기부여 및 성취감 고취시킵니다.</p>
     <p>참가자들은 팀원들과 협업하여 하나의 결과물을 만들어 낼 수 있으며 결과물을 함께 나누고 즐기는 해커톤 과정을 통해 풍부한 지적 자극과 다른 사람들의 새로운 생각들을 접할 수 있습니다.</p>
     <p>저는 세종대학교 학생들의 분실물을 찾아주는 “SLFC” 프로젝트에 참여하여 “장려상”을 수상하였습니다.</p>`,
-    5:`<p>인터페이스 동아리에서 개최하는 학술 세미나는 졸업한 선배님을 초청하여 진행 중인 프로그래밍 전시회 혹은 프로젝트에 대해 피드백을 받는 세미나입니다.</p>
+    
+    15:`학술 세미나`,
+    16:`인터페이스`,
+    17:`<p>인터페이스 동아리에서 개최하는 학술 세미나는 졸업한 선배님을 초청하여 진행 중인 프로그래밍 전시회 혹은 프로젝트에 대해 피드백을 받는 세미나입니다.</p>
     <p>세미나를 통해 재학생들은 프로그래밍 전시회에 보여줄 프로젝트의 주제에 대한 피드백을 받을 수 있으며, 졸업한 선배의 경험담을 통해 취업 및 진로에 대해 알아볼 수 있습니다</p>
     <p>또한 세미나를 개최함으로써 같은 분야의 다른 사람들과 네트워크를 형성할 수 있는 기회를 제공합니다.</p>`,
-    6:`<p>150명 안팎의 회원을 자랑하는 인터페이스는 인간과 컴퓨터를 연결하는 역할을 하자는 뜻입니다. 인터페이스는 지난 1988년 창립돼, 컴퓨터 자격증 출제위원, 게임개발 회사직원 등 IT업계에 종사 중인 수많은 선배와 활발한 인적 네트워크를 유지하고 있는 동아리입니다.</p>
+    
+    18:`세종대학교 인터페이스`,
+    19:`인터페이스`,
+    20:`<p>150명 안팎의 회원을 자랑하는 인터페이스는 인간과 컴퓨터를 연결하는 역할을 하자는 뜻입니다. 인터페이스는 지난 1988년 창립돼, 컴퓨터 자격증 출제위원, 게임개발 회사직원 등 IT업계에 종사 중인 수많은 선배와 활발한 인적 네트워크를 유지하고 있는 동아리입니다.</p>
     <p>인터페이스는 프로그래밍 전시회를 정기적으로 개최해 다양한 프로그램을 개발합니다. 인터페이스 회원이라면 반드시 참여해야하는 행사인 프로그래밍 전시회는 스터디를 통해 배운 지식을 활용해 여름방학부터 11월까지 개발을 진행합니다. 개발 프로그램 선정부터 구현까지 모두 회원이 기획하며 게임, 어플, 홈페이지 등 다양한 프로그램 언어가 활용됩니다.</p>
     <p>저는 세종대학교에 입학하기 전부터 “컴퓨터 중앙 동아리”의 타이틀을 가진 “인터페이스”에 관심을 가졌었습니다. 1학년부터 컴퓨터 프로그래밍 관련 수업에 대해 좋은 성적을 가졌었기에 “학술 부장”으로 입부하여 활동했습니다.</p>`,
-    7:`<p>세종대학교 총학생회는 7월 25일부터 30일까지 여름 농촌봉사활동을 진행했습니다. 봉사활동을 진행한 곳은 충북 괴산읍, 문광면, 소수면의 8개마을(양곡3구, 방성2구, 유평리, 정용리, 월곡리, 입암2구, 아성2구, 소암2구) 농촌마을입니다. 참가한 인원은 150명이며, 모두들 폭염에도 불구하고 헌신적으로 활동하였습니다.</p>
+    
+    21:`세종대학교 농촌 봉사 활동`,
+    22:`세종대학교`,
+    23:`<p>세종대학교 총학생회는 7월 25일부터 30일까지 여름 농촌봉사활동을 진행했습니다. 봉사활동을 진행한 곳은 충북 괴산읍, 문광면, 소수면의 8개마을(양곡3구, 방성2구, 유평리, 정용리, 월곡리, 입암2구, 아성2구, 소암2구) 농촌마을입니다. 참가한 인원은 150명이며, 모두들 폭염에도 불구하고 헌신적으로 활동하였습니다.</p>
     <p>저는 어렸을 때부터 할머니 댁에서 종종 농사일을 도와드리곤 했었기에 농사일의 고단함을 잘 알고 있었습니다. 또한 학교 생활을 하며 흐트러진 마음을 다잡고 지역 사회에 긍정적인 영향을 미치고 싶다는 마음가짐으로 농촌 봉사 활동에 임하게 되었습니다.</p>
     <p>오랜만에 농사일을 했기에 여러 난관에 부딪치기도 하고 힘이 들기도 하였지만, 다함께 힘을 모아 농촌봉사활동을 성공적으로 마칠 수 있었습니다.</p>`
 
 };
 $.activity.en = {
-    0:`<p>The Sejong Creative Design Competition is a competition that produces and announces the results of capstone performance designed by Sejong University students as video content.</p>
+    0:`Sejong Creative Design Competition`,
+    1:`Sejong University`,
+    2:`<p>The Sejong Creative Design Competition is a competition that produces and announces the results of capstone performance designed by Sejong University students as video content.</p>
     <p>The competition is designed to improve students' ability to carry out design projects by developing creative products.</p>
     <p>I participated in this competition with the "SESCO" project and was awarded the grand prize.</p>`,
-    1:`<p>"Interface" is a central club at Sejong University and conducts studies on calculus, physics, and programming languages, and its members are achieving excellent results in various program contests both inside and outside the school.</p>
+    
+    3:`Programming Exhibition`,
+    4:`Interface Club`,
+    5:`<p>"Interface" is a central club at Sejong University and conducts studies on calculus, physics, and programming languages, and its members are achieving excellent results in various program contests both inside and outside the school.</p>
     <p>This programming exhibition will run for three months from October. Club members team up and demonstrate programs that each team has created with ideas.</p>
     <p>A total of four teams participated in this exhibition, and each team developed and demonstrated one program.</p>
     <p>I served as the team leader in the "Me-ching" and "All About ATM" projects, leading the team.</p>`,
-    2:`<p>"Sejong KB Creative Sharing Volunteer Corp" is a creative planning volunteer program that students plan and practice on their own. It has been implemented since the second semester of 2014 to foster future talent with dedicated leadership.</p>
+    
+    6:`The 4th Sejong KB Creative Volunteer Crops`,
+    7:`Sejong University`,
+    8:`<p>"Sejong KB Creative Sharing Volunteer Corp" is a creative planning volunteer program that students plan and practice on their own. It has been implemented since the second semester of 2014 to foster future talent with dedicated leadership.</p>
     <p>Participants receive activity expenses and conduct activities according to their program. Afterwards, if they submit the results (report, UCC), they can receive scholarships only to the excellent team after screening.</p>
     <p>"The 4th Sejong KB Blue Creative Sharing Volunteer Crop" will run until mid-August. Each team will organize the results of the activities through the results report and UCC. The performance sharing meeting will be held early next year with the “Sejong KB Red Creative Sharing Volunteer Crop”, which will be active in the second semester.</p>
     <p>I developed an application and produced UCC in the "Silver World" team and won the Excellence Award.</p>
     <p>Through the Sejong KB Creative Sharing Volunteer Program, I was able to plan and do volunteer activities that I wanted to do, so I was able to carry out volunteer activities with fun. Also, thanks to the characteristics of the program that uses the major, I was able to fill in the deficiencies with more interest in the major. And I was grateful to the elderly who were receiving education for their interest and good response. Thanks to them, we were able to volunteer with fun and fun, and it was good to have a special relationship by sharing our affection while working together.</p>`,
-    3:`<p>Sejong University is currently conducting coding education for all freshmen and introducing the ES-affiliated major system to cultivate software convergence talent. As a College of Software Convergence, they also introduce programming language certification exams to help improve students' coding skills.</p>
+    
+    9:`C / Python Study`,
+    10:`Interface Club`,
+    11:`<p>Sejong University is currently conducting coding education for all freshmen and introducing the ES-affiliated major system to cultivate software convergence talent. As a College of Software Convergence, they also introduce programming language certification exams to help improve students' coding skills.</p>
     <p>"The Interface Club" is also conducting various studies in line with these school education programs. Senior students who have received excellent grades in basic coding studies for students of College of Art and Sports or Humanities who are unfamiliar with computers, as well as studies on certification tests for students of Software Convergence University, are directly guided.</p>
     <p>As the  Academic officers, I conducted C language and Python language studies twice a week for freshmen.</p>
     <p>Through this, freshmen were able to achieve excellent grades in the programming subject and learn the basics for the programming exhibition.</p>`,
-    4:`<p>The Sejong SW Hackathon Competition is a competition that promotes students' motivation and sense of accomplishment through the competition, from planning ideas within a limited time to developing themselves.</p>
+    
+    12:`SW Hackerton Competition`,
+    13:`Sejong University`,
+    14:`<p>The Sejong SW Hackathon Competition is a competition that promotes students' motivation and sense of accomplishment through the competition, from planning ideas within a limited time to developing themselves.</p>
     <p>Participants can collaborate with their team members to make a single project, and they can experience rich intellectual stimulation and new ideas from others through the hackathon process of sharing and enjoying the outcome together.</p>
     <p>I participated in the "SLFC" project to find lost and found items of Sejong University students and was awarded the Incentive Award.</p>`,
-    5:`<p>Academic seminars held by the Interface Club are seminars that invite seniors who graduated to receive feedback on ongoing programming exhibitions or projects.</p>
+    
+    15:`Academic Seminar`,
+    16:`Interface Club`,
+    17:`<p>Academic seminars held by the Interface Club are seminars that invite seniors who graduated to receive feedback on ongoing programming exhibitions or projects.</p>
     <p>Through the seminar, students can receive feedback on the topic of the project to be shown at the programming exhibition and learn about employment and career path through the experiences of their seniors.</p>
     <p>It also gives you the opportunity to network with others in the same field by hosting seminars</p>`,
-    6:`<p>The interface club, which boasts about 150 members, means to play a role in connecting humans and computers. Founded in 1988, Interface is a club that maintains an active human network with numerous seniors in the IT industry.</p>
+    
+    18:`Sejong Interface`,
+    19:`Interface Club`,
+    20:`<p>The interface club, which boasts about 150 members, means to play a role in connecting humans and computers. Founded in 1988, Interface is a club that maintains an active human network with numerous seniors in the IT industry.</p>
     <p>The interface club regularly holds programming exhibitions to develop various programs. The programming exhibition, an event that interface members must participate in, will be developed from summer vacation to November using the knowledge learned through programming studies. From the selection of development programs to implementation, members plan them, and various program languages such as games, applications, and homepages are used.</p>
     <p>Even before entering Sejong University, I was interested in "Interface," which has the title of "Computer Central Club." Since I had good grades in computer programming-related classes from the first grade, I joined the class as an "Academic Manager".</p>`,
-    7:`<p>Sejong University Student Council conducted summer rural volunteer work from July 25 to 30. The student council volunteered in eight villages (Yanggok 3-gu, Bangseong 2-gu, Yupyeong-ri, Jeongyong-ri, Wolgok-ri, Ipam 2-gu, Aseong 2-gu, and Soam 2-gu) in Goesan-eup, Mungwang-myeon, and Sosu-myeon, Chungcheongbuk-do. There are 150 people who participated in volunteer activities, and they were dedicated despite the heat wave.</p>
+    
+    21:`Sejong Rural Volunteer`,
+    22:`Sejong University`,
+    23:`<p>Sejong University Student Council conducted summer rural volunteer work from July 25 to 30. The student council volunteered in eight villages (Yanggok 3-gu, Bangseong 2-gu, Yupyeong-ri, Jeongyong-ri, Wolgok-ri, Ipam 2-gu, Aseong 2-gu, and Soam 2-gu) in Goesan-eup, Mungwang-myeon, and Sosu-myeon, Chungcheongbuk-do. There are 150 people who participated in volunteer activities, and they were dedicated despite the heat wave.</p>
     <p>Since I was young, I used to help my grandmother with farm work, so I knew the hard work of farm work well. In addition, I decided to engage in rural volunteer activities with a desire to overcome my disorganized mind and have a positive impact on the local community while living in colleage.</p>
     <p>It was difficult and difficult because I worked in the farm for the first time in a long time, but I was able to successfully finish my rural volunteer work together.</p>`
 };
