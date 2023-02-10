@@ -59,9 +59,9 @@ $.portfolio.ko = {
     <p>그리고 사용자마다 특수 목적에 맞게 견적을 자유롭게 커스텀할 수 있습니다.</p>
     <p>하지만, 컴퓨터 하드웨어 관련 지식이 없는 사용자들은 조립 컴퓨터를 맞추는 것에 많은 어려움이 있습니다. 또한, 대표적인 하드웨어만 알고 다른 부가적인 장치들에 대해서만 지식이 부족한 사람들도 있습니다.</p>
     <p>Comtris는 이러한 사용자를 타겟층으로 잡아, 조립 PC의 견적을 추천해주는 시스템입니다.</p>
-    <pre>예를들어,
-- 특정한 프로그램을 돌리기 위해서는 CPU는 Ryzen 5600은 필요할 것 같은데, 다른 부품은 무엇을 써야하지?
-- 나는 램이 그래픽카드는 RTX3060이면 좋겠는데, 다른 부품은 무엇을 써야 하지?</pre>
+    <p>예를들어,<br>
+- 특정한 프로그램을 돌리기 위해서는 CPU는 Ryzen 5600은 필요할 것 같은데, 다른 부품은 무엇을 써야하지?<br>
+- 나는 램이 그래픽카드는 RTX3060이면 좋겠는데, 다른 부품은 무엇을 써야 하지?<br></p>
     <p>많은 사람들의 조립 PC의 견적을 보면 한가지 특징을 발견할 수 있습니다.</p>
     <p>특정 CPU에는 특정 M/B와 GPU를 많이 사용합니다. (물론, CPU의 소켓의 호환성 때문도 있지만, 같은 M/B 칩셋이지만 비레퍼런스 별로 세부 성능이 다르기 때문에 이러한 부분들에서 차이가 발생합니다.)</p>
     <p>따라서, 이러한 특징들을 이용하여 부품 6개 (CPU / GPU / RAM / M.B / SSD / POWER)를 비레퍼런스(브랜드), 성능, 사양 등의 지표를 가지고 학습을 시켜서 사용자에게 특정 부품에 관련하여 이러한 다른 부품들을 추천해주는 시스템입니다.</p>`,
@@ -87,10 +87,10 @@ $.portfolio.en = {
     <p>However, users who do not have knowledge of computer hardware have a lot of difficulty fitting assembled computers.</p>
     <p>Also, there are people who only know representative hardware and lack knowledge of other additional devices.</p>
     <p>Comtris is a system that targets these users and recommends estimates for assembled PCs.</p>
-    <pre>For example, 
-- I think the CPU needs Ryzen 5600 to run a particular program, but what other parts should I use?
-- I want RAM's graphics card to be RTX3060, but what should I use for other parts?
-    </pre>
+    <p>For example,<br>
+- I think the CPU needs Ryzen 5600 to run a particular program, but what other parts should I use?<br>
+- I want RAM's graphics card to be RTX3060, but what should I use for other parts?<br>
+														</p>
     <p>If you look at many people's estimates of assembled PCs, you'll find one feature. Certain CPUs use certain M/B and GPUs a lot. (Of course, due to the compatibility of the CPU's sockets, there are differences in these areas because they are the same M/B chipset, but their detailed performance varies from non-reference to non-reference.)</p>
     <p>Therefore, it is a system that uses these features to learn six parts (CPU/GPU/RAM/M.B/SSD/POWER) with indicators such as non-reference (brand), performance, and specifications to recommend these other parts to the user.</p>`,
     3:`<p>There are many good restaurants near Sejong University, so students always think about what to eat when it's meal time. The "Indecisive" project was created to shorten the time to think about what to eat.</p>
