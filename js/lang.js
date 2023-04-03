@@ -2,7 +2,7 @@
 $.about = {};
 $.about.ko = {
     0: `안녕하세요. 꾸준히 성장해 나가는 개발자 <span>Scof (송용욱)</span>입니다.
-    <br>저는 현재 백엔드 개발(Python Frameworks)과 DevOps 인프라 개발을 하고 있으며, 서버(백엔드)와 관련된 전반적인 시스템 이해도를 높일 수 있도록 다양한 시도와 공부를 하고 있습니다.
+    <br>저는 현재 백엔드 개발(Python Frameworks)을 하고 있으며, 서버(백엔드)와 관련된 전반적인 시스템 이해도를 높일 수 있도록 다양한 시도와 공부를 하고 있습니다.
     <br>서비스 기능 구현뿐만 아니라 효율적인 코딩을 위해 노력합니다.
     <br>이곳은 저를 소개하고, 저의 성장 일지를 기록하는 공간입니다.
     <br>이곳은 저의 성장 일기와 같습니다.
@@ -24,7 +24,7 @@ $.about.ko = {
 }
 $.about.en = {
     0:`Hello, I'm <span>Scof (yongwook, SONG)</span> and passionate developer.
-    <br>I'm currently working on backend development(Python Frameworks), and DevOps infrastructure development, and and I'm trying and studying various things to improve my overall understanding of the system related to the server (backend).
+    <br>I'm currently working on backend development(Python Frameworks), and and I'm trying and studying various things to improve my overall understanding of the system related to the server (backend).
     <br>I strive for efficient coding as well as implementing service functions.
     <br>This is a space that introduces me and records my growth log.
     <br>This is like my growing up diary.
